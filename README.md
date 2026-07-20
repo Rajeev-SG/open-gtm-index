@@ -2,6 +2,10 @@
 
 Open GTM Index is a public, evidence-based guide to open-source sales and marketing software. It pairs a transparent research workbook with a responsive TanStack Start interface.
 
+Live site: [open-gtm-index.vercel.app](https://open-gtm-index.vercel.app/)
+
+The GitHub repository is connected to Vercel. Pull requests receive preview deployments, and updates merged into `main` deploy to the public site.
+
 The ranking shown in the interface uses real project data collected on 20 July 2026. The complete research workbook, repository facts, and category configuration are in [`research/`](./research/).
 
 ## Run locally
