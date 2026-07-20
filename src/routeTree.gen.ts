@@ -9,38 +9,208 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WatchlistRouteImport } from './routes/watchlist'
+import { Route as ReplacementsRouteImport } from './routes/replacements'
+import { Route as RankingsRouteImport } from './routes/rankings'
+import { Route as MethodologyRouteImport } from './routes/methodology'
+import { Route as DataRouteImport } from './routes/data'
+import { Route as ContributeRouteImport } from './routes/contribute'
+import { Route as ChangelogRouteImport } from './routes/changelog'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ToolsSlugRouteImport } from './routes/tools.$slug'
+import { Route as CategoriesSlugRouteImport } from './routes/categories.$slug'
 
+const WatchlistRoute = WatchlistRouteImport.update({
+  id: '/watchlist',
+  path: '/watchlist',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ReplacementsRoute = ReplacementsRouteImport.update({
+  id: '/replacements',
+  path: '/replacements',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RankingsRoute = RankingsRouteImport.update({
+  id: '/rankings',
+  path: '/rankings',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const MethodologyRoute = MethodologyRouteImport.update({
+  id: '/methodology',
+  path: '/methodology',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DataRoute = DataRouteImport.update({
+  id: '/data',
+  path: '/data',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContributeRoute = ContributeRouteImport.update({
+  id: '/contribute',
+  path: '/contribute',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ChangelogRoute = ChangelogRouteImport.update({
+  id: '/changelog',
+  path: '/changelog',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ToolsSlugRoute = ToolsSlugRouteImport.update({
+  id: '/tools/$slug',
+  path: '/tools/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CategoriesSlugRoute = CategoriesSlugRouteImport.update({
+  id: '/categories/$slug',
+  path: '/categories/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/changelog': typeof ChangelogRoute
+  '/contribute': typeof ContributeRoute
+  '/data': typeof DataRoute
+  '/methodology': typeof MethodologyRoute
+  '/rankings': typeof RankingsRoute
+  '/replacements': typeof ReplacementsRoute
+  '/watchlist': typeof WatchlistRoute
+  '/categories/$slug': typeof CategoriesSlugRoute
+  '/tools/$slug': typeof ToolsSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/changelog': typeof ChangelogRoute
+  '/contribute': typeof ContributeRoute
+  '/data': typeof DataRoute
+  '/methodology': typeof MethodologyRoute
+  '/rankings': typeof RankingsRoute
+  '/replacements': typeof ReplacementsRoute
+  '/watchlist': typeof WatchlistRoute
+  '/categories/$slug': typeof CategoriesSlugRoute
+  '/tools/$slug': typeof ToolsSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/changelog': typeof ChangelogRoute
+  '/contribute': typeof ContributeRoute
+  '/data': typeof DataRoute
+  '/methodology': typeof MethodologyRoute
+  '/rankings': typeof RankingsRoute
+  '/replacements': typeof ReplacementsRoute
+  '/watchlist': typeof WatchlistRoute
+  '/categories/$slug': typeof CategoriesSlugRoute
+  '/tools/$slug': typeof ToolsSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/changelog'
+    | '/contribute'
+    | '/data'
+    | '/methodology'
+    | '/rankings'
+    | '/replacements'
+    | '/watchlist'
+    | '/categories/$slug'
+    | '/tools/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/changelog'
+    | '/contribute'
+    | '/data'
+    | '/methodology'
+    | '/rankings'
+    | '/replacements'
+    | '/watchlist'
+    | '/categories/$slug'
+    | '/tools/$slug'
+  id:
+    | '__root__'
+    | '/'
+    | '/changelog'
+    | '/contribute'
+    | '/data'
+    | '/methodology'
+    | '/rankings'
+    | '/replacements'
+    | '/watchlist'
+    | '/categories/$slug'
+    | '/tools/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ChangelogRoute: typeof ChangelogRoute
+  ContributeRoute: typeof ContributeRoute
+  DataRoute: typeof DataRoute
+  MethodologyRoute: typeof MethodologyRoute
+  RankingsRoute: typeof RankingsRoute
+  ReplacementsRoute: typeof ReplacementsRoute
+  WatchlistRoute: typeof WatchlistRoute
+  CategoriesSlugRoute: typeof CategoriesSlugRoute
+  ToolsSlugRoute: typeof ToolsSlugRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/watchlist': {
+      id: '/watchlist'
+      path: '/watchlist'
+      fullPath: '/watchlist'
+      preLoaderRoute: typeof WatchlistRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/replacements': {
+      id: '/replacements'
+      path: '/replacements'
+      fullPath: '/replacements'
+      preLoaderRoute: typeof ReplacementsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rankings': {
+      id: '/rankings'
+      path: '/rankings'
+      fullPath: '/rankings'
+      preLoaderRoute: typeof RankingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/methodology': {
+      id: '/methodology'
+      path: '/methodology'
+      fullPath: '/methodology'
+      preLoaderRoute: typeof MethodologyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/data': {
+      id: '/data'
+      path: '/data'
+      fullPath: '/data'
+      preLoaderRoute: typeof DataRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contribute': {
+      id: '/contribute'
+      path: '/contribute'
+      fullPath: '/contribute'
+      preLoaderRoute: typeof ContributeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/changelog': {
+      id: '/changelog'
+      path: '/changelog'
+      fullPath: '/changelog'
+      preLoaderRoute: typeof ChangelogRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -48,11 +218,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/tools/$slug': {
+      id: '/tools/$slug'
+      path: '/tools/$slug'
+      fullPath: '/tools/$slug'
+      preLoaderRoute: typeof ToolsSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/categories/$slug': {
+      id: '/categories/$slug'
+      path: '/categories/$slug'
+      fullPath: '/categories/$slug'
+      preLoaderRoute: typeof CategoriesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ChangelogRoute: ChangelogRoute,
+  ContributeRoute: ContributeRoute,
+  DataRoute: DataRoute,
+  MethodologyRoute: MethodologyRoute,
+  RankingsRoute: RankingsRoute,
+  ReplacementsRoute: ReplacementsRoute,
+  WatchlistRoute: WatchlistRoute,
+  CategoriesSlugRoute: CategoriesSlugRoute,
+  ToolsSlugRoute: ToolsSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -1,12 +1,27 @@
 # Open GTM Index
 
-Open GTM Index is a public, evidence-based guide to open-source sales and marketing software. It pairs a transparent research workbook with a responsive TanStack Start interface.
+Open GTM Index is a public guide to open-source sales, marketing, support, customer, and revenue software. It publishes the complete evidence and scoring method behind its rankings.
 
-Live site: [open-gtm-index.vercel.app](https://open-gtm-index.vercel.app/)
+Live publication: [open-gtm-index.vercel.app](https://open-gtm-index.vercel.app/)
 
-The GitHub repository is connected to Vercel. Pull requests receive preview deployments, and updates merged into `main` deploy to the public site.
+The 20 July 2026 snapshot contains:
 
-The ranking shown in the interface uses real project data collected on 20 July 2026. The complete research workbook, repository facts, and category configuration are in [`research/`](./research/).
+- 53 reviewed projects: 50 ranked and 3 on the licence watchlist
+- 13 categories
+- 27 commercial-to-open-source replacement mappings
+- 59 public sources
+- six score components with documented formulas, thresholds, and limitations
+
+## Public pages
+
+- `/rankings` provides the complete searchable and filterable ranking.
+- `/tools/:slug` provides a project evidence page with every score component.
+- `/categories/:slug` compares projects that do the same job.
+- `/replacements` maps familiar commercial products to open-source starting points.
+- `/methodology` publishes weights, formulas, thresholds, licence rules, and a worked example.
+- `/watchlist` keeps reviewed projects with restricted or unclear licences visible but unranked.
+- `/data` provides JSON, CSV, the research workbook, and the source register.
+- `/contribute` explains the public correction and review process.
 
 ## Run locally
 
@@ -15,50 +30,40 @@ pnpm install
 pnpm dev
 ```
 
-Build the production files with:
+Build and validate everything with:
 
 ```sh
-pnpm build
+pnpm validate
 ```
 
-The deployable Nitro server and public assets are written to `.output/`.
+TanStack Start generates the deployable Nitro server and static assets under `.output/`.
 
-## What is implemented
+## Data generation
 
-- Desktop composition matched to the approved 1488 × 1058 editorial design.
-- Fluid wide-desktop layout.
-- Tablet navigation, two-by-two evidence grid, three-by-two category grid, scrollable ranking table, and full-width score explanation.
-- Mobile navigation, stacked evidence rows, horizontal category carousel, labelled ranking cards, and three-column score explanation.
-- Local Newsreader and Instrument Sans font files; production rendering does not depend on a third-party font server.
-- Working mobile menu and sortable ranking columns.
-- Keyboard focus styles and reduced-motion support.
+The editable research inputs live under `research/`. Run:
 
-## Deployment compatibility
+```sh
+pnpm data:build
+```
 
-The application is a TanStack Start build. It can be deployed to:
+This validates the 53 project records, recalculates every score and rank, and writes:
 
-- Cloudflare Workers using `@cloudflare/vite-plugin`
-- Vercel using Nitro
-- Coolify using the generated Node server or a Dockerfile
+- typed application inputs under `research/generated/`
+- `public/open-gtm-index.json`
+- `public/open-gtm-index.csv`
+- `public/sitemap.xml` and `public/robots.txt`
 
-## Recommended production framework
+Generated files are committed so each publication snapshot can be reviewed as a normal Git change.
 
-The production application uses TanStack Start so URL-based filters, comparisons, server-side data loading, and contribution workflows can be added without changing frameworks. It supports Cloudflare Workers, Vercel through Nitro, and a Node server or container for Coolify.
+## Design and deployment
 
-The page is already split into React components for the header, hero, evidence strip, category leaders, ranking table, and scoring method. The design rules used for the responsive implementation are in [`.stitch/DESIGN.md`](./.stitch/DESIGN.md).
+The interface uses the approved editorial direction: Newsreader and Instrument Sans, warm paper, precise rules, cobalt links, amber scores, and responsive tables that become evidence cards on small screens. The supporting Stitch outputs are stored in `.stitch/designs/`.
 
-Next.js remains a strong option when publishing, server-rendered editorial pages, and Vercel integration are more important than portable route and filter state. Astro is the leanest option if the index remains mostly prebuilt editorial content with a few interactive controls.
+The application runs on TanStack Start and Nitro. It is deployed to Vercel; the same application can target Cloudflare Workers with the Cloudflare Vite integration or run as a Node server/container on Coolify.
 
-Official deployment references:
+## Licences
 
-- [TanStack Start hosting](https://tanstack.com/start/latest/docs/framework/react/guide/hosting)
-- [TanStack Start on Cloudflare Workers](https://developers.cloudflare.com/workers/framework-guides/web-apps/tanstack-start/)
-- [TanStack Start on Vercel](https://vercel.com/kb/guide/deploy-a-tanstack-start-app-to-vercel)
-- [Next.js deployment options](https://nextjs.org/docs/app/getting-started/deploying)
-- [Next.js on Cloudflare Workers](https://developers.cloudflare.com/workers/framework-guides/web-apps/nextjs/)
-- [Astro Cloudflare adapter](https://docs.astro.build/en/guides/integrations-guide/cloudflare/)
-- [Coolify applications and build packs](https://coolify.io/docs/applications/index)
+- Website code: [MIT](./LICENSE)
+- Research data and published records: [CC BY 4.0](./DATA-LICENSE.md)
 
-## Licence
-
-The application code and included research files are available under the [MIT licence](./LICENSE).
+Project names and trademarks belong to their respective owners.

@@ -1,0 +1,4221 @@
+{
+  "meta": {
+    "methodVersion": "1.0",
+    "checked": "2026-07-20",
+    "reviewedBy": "Open GTM Index maintainers",
+    "reviewPolicy": "Repository facts are collected from public GitHub metadata. Deployment readiness, go-to-market fit and licence classifications are editorial inputs reviewed against the linked repository and official website.",
+    "reviewed": 53,
+    "ranked": 50,
+    "watchlist": 3
+  },
+  "tools": [
+    {
+      "slug": "cal-com",
+      "rank": 1,
+      "categoryRank": 1,
+      "name": "Cal.com",
+      "category": "Forms, Surveys & Conversion",
+      "categorySlug": "forms-surveys-and-conversion",
+      "replaces": [
+        "Calendly",
+        "Chili Piper"
+      ],
+      "description": "Scheduling platform with routing and integrations.",
+      "repositoryDescription": "Scheduling infrastructure for absolutely everyone.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 46636,
+      "forks": 14496,
+      "openIssues": 1355,
+      "lastPush": "2026-07-09",
+      "daysSincePush": 11,
+      "defaultBranch": "main",
+      "topics": [
+        "next-auth",
+        "nextjs",
+        "open-source",
+        "postgresql",
+        "prisma",
+        "t3-stack",
+        "tailwindcss",
+        "trpc",
+        "turborepo",
+        "typescript",
+        "zod"
+      ],
+      "components": {
+        "adoption": 22.6,
+        "community": 14.2,
+        "activity": 18,
+        "deployment": 14,
+        "gtmFit": 15,
+        "licence": 10
+      },
+      "score": 93.8,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/calcom/cal.diy",
+      "website": "https://cal.diy",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Calendly, Chili Piper.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/calcom/cal.diy",
+          "https://cal.diy"
+        ]
+      }
+    },
+    {
+      "slug": "chatwoot",
+      "rank": 2,
+      "categoryRank": 1,
+      "name": "Chatwoot",
+      "category": "Customer Support & Success",
+      "categorySlug": "customer-support-and-success",
+      "replaces": [
+        "Intercom",
+        "Zendesk"
+      ],
+      "description": "Omnichannel support inbox, chat and help centre.",
+      "repositoryDescription": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "licence": "MIT core + enterprise files",
+      "licenceModel": "Open core (permissive)",
+      "licenceMeaning": "Open-source core with separately licensed enterprise features.",
+      "stars": 34579,
+      "forks": 8245,
+      "openIssues": 1249,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "develop",
+      "topics": [
+        "actioncable",
+        "chat-widget",
+        "conversation",
+        "customer-support",
+        "dashboard",
+        "design",
+        "docker",
+        "docker-image",
+        "heroku",
+        "intercom",
+        "javascript",
+        "livechat",
+        "opensource",
+        "rails",
+        "ruby",
+        "sass",
+        "vuejs",
+        "whatsapp",
+        "zendesk"
+      ],
+      "components": {
+        "adoption": 21.9,
+        "community": 13.4,
+        "activity": 20,
+        "deployment": 15,
+        "gtmFit": 15,
+        "licence": 8
+      },
+      "score": 93.3,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/chatwoot/chatwoot",
+      "website": "https://www.chatwoot.com/help-center",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Maintained self-host path, clear setup documentation and a strong operating path.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Intercom, Zendesk.",
+        "licence": "Open core (permissive): Open-source core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/chatwoot/chatwoot",
+          "https://www.chatwoot.com/help-center"
+        ]
+      }
+    },
+    {
+      "slug": "umami",
+      "rank": 2,
+      "categoryRank": 1,
+      "name": "Umami",
+      "category": "Analytics & Experimentation",
+      "categorySlug": "analytics-and-experimentation",
+      "replaces": [
+        "Google Analytics"
+      ],
+      "description": "Simple privacy-focused web analytics.",
+      "repositoryDescription": "Umami is a modern, privacy-focused analytics platform. An open-source alternative to Google Analytics, Mixpanel and Amplitude.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 37768,
+      "forks": 7581,
+      "openIssues": 116,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "analytics",
+        "audience-segmentation",
+        "charts",
+        "cohort-analysis",
+        "google-analytics",
+        "product-analytics",
+        "statistics",
+        "user-journey",
+        "web-analytics"
+      ],
+      "components": {
+        "adoption": 22.1,
+        "community": 13.2,
+        "activity": 20,
+        "deployment": 15,
+        "gtmFit": 13,
+        "licence": 10
+      },
+      "score": 93.3,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/umami-software/umami",
+      "website": "https://umami.is",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Maintained self-host path, clear setup documentation and a strong operating path.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Google Analytics.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/umami-software/umami",
+          "https://umami.is"
+        ]
+      }
+    },
+    {
+      "slug": "excalidraw",
+      "rank": 4,
+      "categoryRank": 1,
+      "name": "Excalidraw",
+      "category": "Creative & Content",
+      "categorySlug": "creative-and-content",
+      "replaces": [
+        "Miro",
+        "FigJam"
+      ],
+      "description": "Collaborative diagrams and visual thinking.",
+      "repositoryDescription": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 127938,
+      "forks": 14484,
+      "openIssues": 3242,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "canvas",
+        "collaboration",
+        "diagrams",
+        "drawing",
+        "hacktoberfest",
+        "productivity",
+        "whiteboard"
+      ],
+      "components": {
+        "adoption": 24.7,
+        "community": 14.2,
+        "activity": 20,
+        "deployment": 15,
+        "gtmFit": 9,
+        "licence": 10
+      },
+      "score": 92.9,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/excalidraw/excalidraw",
+      "website": "https://excalidraw.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Maintained self-host path, clear setup documentation and a strong operating path.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/excalidraw/excalidraw",
+          "https://excalidraw.com"
+        ]
+      }
+    },
+    {
+      "slug": "strapi",
+      "rank": 5,
+      "categoryRank": 1,
+      "name": "Strapi",
+      "category": "Website & Content",
+      "categorySlug": "website-and-content",
+      "replaces": [
+        "Contentful",
+        "Sanity"
+      ],
+      "description": "Headless content management system.",
+      "repositoryDescription": "🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.",
+      "licence": "MIT community edition + enterprise files",
+      "licenceModel": "Open core (permissive)",
+      "licenceMeaning": "Open-source core with separately licensed enterprise features.",
+      "stars": 72689,
+      "forks": 9803,
+      "openIssues": 494,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "develop",
+      "topics": [
+        "api",
+        "cms",
+        "cms-framework",
+        "content-management",
+        "content-management-system",
+        "customizable",
+        "dashboard",
+        "graphql",
+        "hacktoberfest",
+        "headless-cms",
+        "jamstack",
+        "javascript",
+        "mysql",
+        "no-code",
+        "nodejs",
+        "posgresql",
+        "rest",
+        "strapi",
+        "typescript"
+      ],
+      "components": {
+        "adoption": 23.5,
+        "community": 13.6,
+        "activity": 20,
+        "deployment": 15,
+        "gtmFit": 12,
+        "licence": 8
+      },
+      "score": 92.1,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/strapi/strapi",
+      "website": "https://strapi.io",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Maintained self-host path, clear setup documentation and a strong operating path.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Contentful, Sanity.",
+        "licence": "Open core (permissive): Open-source core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/strapi/strapi",
+          "https://strapi.io"
+        ]
+      }
+    },
+    {
+      "slug": "twenty",
+      "rank": 5,
+      "categoryRank": 1,
+      "name": "Twenty",
+      "category": "CRM & Revenue Operations",
+      "categorySlug": "crm-and-revenue-operations",
+      "replaces": [
+        "Salesforce",
+        "HubSpot",
+        "Attio"
+      ],
+      "description": "Modern extensible CRM with self-hosting.",
+      "repositoryDescription": "The open alternative to Salesforce, designed for AI.",
+      "licence": "AGPL-3.0 core + enterprise files",
+      "licenceModel": "Open core (copyleft)",
+      "licenceMeaning": "Copyleft core with separately licensed enterprise features.",
+      "stars": 53330,
+      "forks": 8099,
+      "openIssues": 104,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "crm",
+        "crm-system",
+        "customer",
+        "good-first-issue",
+        "graphql",
+        "hacktoberfest",
+        "javascript",
+        "marketing",
+        "monorepo",
+        "nestjs",
+        "open-source",
+        "postgresql",
+        "react",
+        "reactjs",
+        "sales",
+        "typescript",
+        "web"
+      ],
+      "components": {
+        "adoption": 22.8,
+        "community": 13.3,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 15,
+        "licence": 7
+      },
+      "score": 92.1,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/twentyhq/twenty",
+      "website": "https://twenty.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Salesforce, HubSpot, Attio.",
+        "licence": "Open core (copyleft): Copyleft core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/twentyhq/twenty",
+          "https://twenty.com"
+        ]
+      }
+    },
+    {
+      "slug": "crawl4ai",
+      "rank": 7,
+      "categoryRank": 1,
+      "name": "Crawl4AI",
+      "category": "Prospecting & Web Data",
+      "categorySlug": "prospecting-and-web-data",
+      "replaces": [
+        "Firecrawl"
+      ],
+      "description": "Crawler that produces AI-ready web content.",
+      "repositoryDescription": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "licence": "Apache-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 73401,
+      "forks": 7546,
+      "openIssues": 111,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [],
+      "components": {
+        "adoption": 23.5,
+        "community": 13.2,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 12,
+        "licence": 10
+      },
+      "score": 91.7,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/unclecode/crawl4ai",
+      "website": "https://crawl4ai.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Firecrawl.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/unclecode/crawl4ai",
+          "https://crawl4ai.com"
+        ]
+      }
+    },
+    {
+      "slug": "langchain",
+      "rank": 8,
+      "categoryRank": 1,
+      "name": "LangChain",
+      "category": "Agent & GTM Developer Tools",
+      "categorySlug": "agent-and-gtm-developer-tools",
+      "replaces": [
+        "Proprietary agent SDKs"
+      ],
+      "description": "Framework and integrations for agent applications.",
+      "repositoryDescription": "The agent engineering platform.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 142171,
+      "forks": 23644,
+      "openIssues": 437,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "deepagents",
+        "enterprise",
+        "framework",
+        "gemini",
+        "generative-ai",
+        "langchain",
+        "langgraph",
+        "llm",
+        "multiagent",
+        "open-source",
+        "openai",
+        "pydantic",
+        "python",
+        "rag",
+        "typescript"
+      ],
+      "components": {
+        "adoption": 24.9,
+        "community": 14.9,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 8,
+        "licence": 10
+      },
+      "score": 90.8,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/langchain-ai/langchain",
+      "website": "https://docs.langchain.com/langchain/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/langchain-ai/langchain",
+          "https://docs.langchain.com/langchain/"
+        ]
+      }
+    },
+    {
+      "slug": "payload",
+      "rank": 9,
+      "categoryRank": 2,
+      "name": "Payload",
+      "category": "Website & Content",
+      "categorySlug": "website-and-content",
+      "replaces": [
+        "Contentful",
+        "Sanity"
+      ],
+      "description": "Code-first headless content platform.",
+      "repositoryDescription": "Payload is the open-source, fullstack Next.js framework, giving you instant backend superpowers. Get a full TypeScript backend and admin panel instantly. Use Payload as a headless CMS or for building powerful applications.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 43707,
+      "forks": 3952,
+      "openIssues": 897,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "cms",
+        "content-management",
+        "content-management-system",
+        "express",
+        "graphql",
+        "headless",
+        "headless-cms",
+        "jamstack",
+        "javascript",
+        "mit-license",
+        "mongodb",
+        "nextjs",
+        "nodejs",
+        "open-source",
+        "payload",
+        "payloadcms",
+        "postgres",
+        "react",
+        "typescript"
+      ],
+      "components": {
+        "adoption": 22.4,
+        "community": 12.3,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 12,
+        "licence": 10
+      },
+      "score": 90.7,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/payloadcms/payload",
+      "website": "https://payloadcms.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Contentful, Sanity.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/payloadcms/payload",
+          "https://payloadcms.com"
+        ]
+      }
+    },
+    {
+      "slug": "listmonk",
+      "rank": 10,
+      "categoryRank": 1,
+      "name": "listmonk",
+      "category": "Marketing Automation & Email",
+      "categorySlug": "marketing-automation-and-email",
+      "replaces": [
+        "Mailchimp",
+        "Campaign Monitor"
+      ],
+      "description": "High-performance newsletter and mailing-list manager.",
+      "repositoryDescription": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 22294,
+      "forks": 2427,
+      "openIssues": 101,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "campaign",
+        "campaign-management",
+        "email-marketing",
+        "email-subscription",
+        "listmonk",
+        "mailing-list",
+        "newsletter",
+        "newsletter-management",
+        "newsletter-software",
+        "self-hosted",
+        "sms-gateway",
+        "smtp",
+        "transactional-emails"
+      ],
+      "components": {
+        "adoption": 21,
+        "community": 11.6,
+        "activity": 20,
+        "deployment": 15,
+        "gtmFit": 14,
+        "licence": 9
+      },
+      "score": 90.6,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/knadh/listmonk",
+      "website": "https://listmonk.app",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Maintained self-host path, clear setup documentation and a strong operating path.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Mailchimp, Campaign Monitor.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/knadh/listmonk",
+          "https://listmonk.app"
+        ]
+      }
+    },
+    {
+      "slug": "posthog",
+      "rank": 11,
+      "categoryRank": 2,
+      "name": "PostHog",
+      "category": "Analytics & Experimentation",
+      "categorySlug": "analytics-and-experimentation",
+      "replaces": [
+        "Mixpanel",
+        "Amplitude",
+        "Hotjar"
+      ],
+      "description": "Product analytics, replay, experiments, surveys and warehouse.",
+      "repositoryDescription": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "licence": "MIT core + enterprise files",
+      "licenceModel": "Open core (permissive)",
+      "licenceMeaning": "Open-source core with separately licensed enterprise features.",
+      "stars": 37116,
+      "forks": 3067,
+      "openIssues": 4848,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "ab-testing",
+        "ai-analytics",
+        "analytics",
+        "cdp",
+        "data-warehouse",
+        "experiments",
+        "feature-flags",
+        "javascript",
+        "product-analytics",
+        "python",
+        "react",
+        "session-replay",
+        "surveys",
+        "typescript",
+        "web-analytics"
+      ],
+      "components": {
+        "adoption": 22.1,
+        "community": 11.9,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 14,
+        "licence": 8
+      },
+      "score": 90,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/PostHog/posthog",
+      "website": "https://posthog.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Mixpanel, Amplitude, Hotjar.",
+        "licence": "Open core (permissive): Open-source core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/PostHog/posthog",
+          "https://posthog.com"
+        ]
+      }
+    },
+    {
+      "slug": "flowise",
+      "rank": 12,
+      "categoryRank": 2,
+      "name": "Flowise",
+      "category": "Agent & GTM Developer Tools",
+      "categorySlug": "agent-and-gtm-developer-tools",
+      "replaces": [
+        "AirOps",
+        "visual agent builders"
+      ],
+      "description": "Visual builder for agent and language-model workflows.",
+      "repositoryDescription": "Build AI Agents, Visually",
+      "licence": "Apache-2.0 core + enterprise files",
+      "licenceModel": "Open core (permissive)",
+      "licenceMeaning": "Open-source core with separately licensed enterprise features.",
+      "stars": 54770,
+      "forks": 24739,
+      "openIssues": 1009,
+      "lastPush": "2026-07-17",
+      "daysSincePush": 3,
+      "defaultBranch": "main",
+      "topics": [
+        "agentic-ai",
+        "agentic-workflow",
+        "agents",
+        "artificial-intelligence",
+        "chatbot",
+        "chatgpt",
+        "javascript",
+        "langchain",
+        "large-language-models",
+        "low-code",
+        "multiagent-systems",
+        "no-code",
+        "openai",
+        "rag",
+        "react",
+        "typescript",
+        "workflow-automation"
+      ],
+      "components": {
+        "adoption": 22.9,
+        "community": 15,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 10,
+        "licence": 8
+      },
+      "score": 89.9,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/FlowiseAI/Flowise",
+      "website": "https://flowiseai.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Open core (permissive): Open-source core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/FlowiseAI/Flowise",
+          "https://flowiseai.com"
+        ]
+      }
+    },
+    {
+      "slug": "comfyui",
+      "rank": 13,
+      "categoryRank": 2,
+      "name": "ComfyUI",
+      "category": "Creative & Content",
+      "categorySlug": "creative-and-content",
+      "replaces": [
+        "Midjourney",
+        "Runway image workflows"
+      ],
+      "description": "Node-based generative media workflow interface.",
+      "repositoryDescription": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "licence": "GPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 121541,
+      "forks": 14320,
+      "openIssues": 4304,
+      "lastPush": "2026-07-19",
+      "daysSincePush": 1,
+      "defaultBranch": "master",
+      "topics": [
+        "ai",
+        "comfy",
+        "comfyui",
+        "python",
+        "pytorch",
+        "stable-diffusion"
+      ],
+      "components": {
+        "adoption": 24.6,
+        "community": 14.2,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 10,
+        "licence": 9
+      },
+      "score": 89.8,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/Comfy-Org/ComfyUI",
+      "website": "https://www.comfy.org/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/Comfy-Org/ComfyUI",
+          "https://www.comfy.org/"
+        ]
+      }
+    },
+    {
+      "slug": "matomo",
+      "rank": 13,
+      "categoryRank": 3,
+      "name": "Matomo",
+      "category": "Analytics & Experimentation",
+      "categorySlug": "analytics-and-experimentation",
+      "replaces": [
+        "Google Analytics",
+        "Adobe Analytics"
+      ],
+      "description": "Mature web analytics with data ownership.",
+      "repositoryDescription": "Empowering People Ethically 🚀 — Matomo is hiring! Join us → https://matomo.org/jobs Matomo is the leading open-source alternative to Google Analytics, giving you complete control and built-in privacy. Easily collect, visualise, and analyse data from websites & apps. Star us on GitHub ⭐️  – Pull Requests welcome! ",
+      "licence": "GPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 21705,
+      "forks": 2867,
+      "openIssues": 2536,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "5.x-dev",
+      "topics": [
+        "analytics",
+        "growth",
+        "hacktoberfest",
+        "intranet",
+        "log",
+        "marketing",
+        "matomo",
+        "mobile",
+        "mysql",
+        "php",
+        "piwik",
+        "privacy",
+        "security",
+        "web-analytics",
+        "website"
+      ],
+      "components": {
+        "adoption": 21,
+        "community": 11.8,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 14,
+        "licence": 9
+      },
+      "score": 89.8,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/matomo-org/matomo",
+      "website": "https://matomo.org/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Google Analytics, Adobe Analytics.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/matomo-org/matomo",
+          "https://matomo.org/"
+        ]
+      }
+    },
+    {
+      "slug": "activepieces",
+      "rank": 15,
+      "categoryRank": 1,
+      "name": "Activepieces",
+      "category": "Workflow Automation",
+      "categorySlug": "workflow-automation",
+      "replaces": [
+        "Zapier",
+        "Make"
+      ],
+      "description": "Business automation with connectors and AI steps.",
+      "repositoryDescription": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "licence": "MIT core + enterprise files",
+      "licenceModel": "Open core (permissive)",
+      "licenceMeaning": "Open-source core with separately licensed enterprise features.",
+      "stars": 23343,
+      "forks": 3942,
+      "openIssues": 436,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "ai-agent",
+        "ai-agent-tools",
+        "ai-agents",
+        "ai-agents-framework",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "mcps",
+        "n8n-alternative",
+        "no-code-automation",
+        "workflow",
+        "workflow-automation",
+        "workflows"
+      ],
+      "components": {
+        "adoption": 21.1,
+        "community": 12.3,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 14,
+        "licence": 8
+      },
+      "score": 89.4,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/activepieces/activepieces",
+      "website": "https://www.activepieces.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Zapier, Make.",
+        "licence": "Open core (permissive): Open-source core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/activepieces/activepieces",
+          "https://www.activepieces.com"
+        ]
+      }
+    },
+    {
+      "slug": "penpot",
+      "rank": 16,
+      "categoryRank": 3,
+      "name": "Penpot",
+      "category": "Creative & Content",
+      "categorySlug": "creative-and-content",
+      "replaces": [
+        "Figma"
+      ],
+      "description": "Collaborative interface design and prototyping.",
+      "repositoryDescription": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+      "licence": "MPL-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 56995,
+      "forks": 3763,
+      "openIssues": 737,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "develop",
+      "topics": [
+        "clojure",
+        "clojurescript",
+        "design",
+        "prototyping",
+        "ui",
+        "ux-design",
+        "ux-experience"
+      ],
+      "components": {
+        "adoption": 23,
+        "community": 12.2,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 10,
+        "licence": 10
+      },
+      "score": 89.2,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/penpot/penpot",
+      "website": "https://penpot.app",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/penpot/penpot",
+          "https://penpot.app"
+        ]
+      }
+    },
+    {
+      "slug": "plausible-analytics",
+      "rank": 17,
+      "categoryRank": 4,
+      "name": "Plausible Analytics",
+      "category": "Analytics & Experimentation",
+      "categorySlug": "analytics-and-experimentation",
+      "replaces": [
+        "Google Analytics"
+      ],
+      "description": "Privacy-focused web analytics.",
+      "repositoryDescription": "Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 27885,
+      "forks": 1722,
+      "openIssues": 71,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "analytics",
+        "analytics-dashboard",
+        "clickhouse",
+        "elixir",
+        "google-analytics",
+        "marketing",
+        "open-source-analytics",
+        "phoenix",
+        "plausible-analytics",
+        "postgresql",
+        "privacy",
+        "privacy-friendly",
+        "self-hosted",
+        "simple-analytics",
+        "statistics",
+        "tailwindcss",
+        "web-analytics",
+        "website-analytics",
+        "website-stats",
+        "website-tracking"
+      ],
+      "components": {
+        "adoption": 21.5,
+        "community": 11,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 13,
+        "licence": 9
+      },
+      "score": 88.5,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/plausible/analytics",
+      "website": "https://plausible.io",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Google Analytics.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/plausible/analytics",
+          "https://plausible.io"
+        ]
+      }
+    },
+    {
+      "slug": "mautic",
+      "rank": 18,
+      "categoryRank": 2,
+      "name": "Mautic",
+      "category": "Marketing Automation & Email",
+      "categorySlug": "marketing-automation-and-email",
+      "replaces": [
+        "HubSpot Marketing Hub",
+        "Marketo"
+      ],
+      "description": "Campaign automation, lead scoring, segments and email.",
+      "repositoryDescription": "Mautic: Open Source Marketing Automation Software.",
+      "licence": "GPL-3.0-or-later",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 10172,
+      "forks": 3369,
+      "openIssues": 214,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "7.x",
+      "topics": [
+        "digital-experience-platform",
+        "digitalexperienceplatform",
+        "dxp",
+        "email-marketing",
+        "email-marketing-automation",
+        "email-marketing-software",
+        "hacktoberfest",
+        "marketing-automation",
+        "marketing-tools",
+        "mautic",
+        "open-source",
+        "php"
+      ],
+      "components": {
+        "adoption": 19.4,
+        "community": 12,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 15,
+        "licence": 9
+      },
+      "score": 88.4,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/mautic/mautic",
+      "website": "https://www.mautic.org",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces HubSpot Marketing Hub, Marketo.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/mautic/mautic",
+          "https://www.mautic.org"
+        ]
+      }
+    },
+    {
+      "slug": "node-red",
+      "rank": 18,
+      "categoryRank": 2,
+      "name": "Node-RED",
+      "category": "Workflow Automation",
+      "categorySlug": "workflow-automation",
+      "replaces": [
+        "Zapier",
+        "Make"
+      ],
+      "description": "Flow-based automation with a large node ecosystem.",
+      "repositoryDescription": "Low-code programming for event-driven applications",
+      "licence": "Apache-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 23431,
+      "forks": 3873,
+      "openIssues": 315,
+      "lastPush": "2026-07-13",
+      "daysSincePush": 7,
+      "defaultBranch": "main",
+      "topics": [
+        "flow-based-programming",
+        "javascript",
+        "low-code",
+        "node-red",
+        "openjs-foundation",
+        "visual-programming"
+      ],
+      "components": {
+        "adoption": 21.1,
+        "community": 12.3,
+        "activity": 20,
+        "deployment": 15,
+        "gtmFit": 10,
+        "licence": 10
+      },
+      "score": 88.4,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/node-red/node-red",
+      "website": "http://nodered.org",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Maintained self-host path, clear setup documentation and a strong operating path.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/node-red/node-red",
+          "http://nodered.org"
+        ]
+      }
+    },
+    {
+      "slug": "krayin-crm",
+      "rank": 20,
+      "categoryRank": 2,
+      "name": "Krayin CRM",
+      "category": "CRM & Revenue Operations",
+      "categorySlug": "crm-and-revenue-operations",
+      "replaces": [
+        "HubSpot CRM",
+        "Pipedrive"
+      ],
+      "description": "Laravel CRM with leads, activities, products and quotes.",
+      "repositoryDescription": "Free & Opensource Laravel CRM solution for SMEs and Enterprises for complete customer lifecycle management.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 23418,
+      "forks": 1532,
+      "openIssues": 128,
+      "lastPush": "2026-07-17",
+      "daysSincePush": 3,
+      "defaultBranch": "2.2",
+      "topics": [
+        "cloud",
+        "cloudhosting",
+        "crm",
+        "crm-multi-tenant-saas",
+        "crm-platform",
+        "hacktoberfest",
+        "laravel",
+        "laravel-application",
+        "laravel-crm",
+        "laravel-framework",
+        "laravel-package",
+        "opensource",
+        "opensource-crm",
+        "opensource-crm-framework",
+        "php",
+        "vue",
+        "vuejs"
+      ],
+      "components": {
+        "adoption": 21.1,
+        "community": 10.9,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 14,
+        "licence": 10
+      },
+      "score": 88,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/krayin/laravel-crm",
+      "website": "https://krayincrm.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of HubSpot CRM, Pipedrive.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/krayin/laravel-crm",
+          "https://krayincrm.com"
+        ]
+      }
+    },
+    {
+      "slug": "crewai",
+      "rank": 21,
+      "categoryRank": 3,
+      "name": "CrewAI",
+      "category": "Agent & GTM Developer Tools",
+      "categorySlug": "agent-and-gtm-developer-tools",
+      "replaces": [
+        "Proprietary multi-agent platforms"
+      ],
+      "description": "Framework for coordinated AI agent workflows.",
+      "repositoryDescription": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 55846,
+      "forks": 7889,
+      "openIssues": 655,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "aiagentframework",
+        "llms"
+      ],
+      "components": {
+        "adoption": 22.9,
+        "community": 13.3,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 9,
+        "licence": 10
+      },
+      "score": 87.2,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/crewAIInc/crewAI",
+      "website": "https://crewai.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/crewAIInc/crewAI",
+          "https://crewai.com"
+        ]
+      }
+    },
+    {
+      "slug": "llamaindex",
+      "rank": 22,
+      "categoryRank": 4,
+      "name": "LlamaIndex",
+      "category": "Agent & GTM Developer Tools",
+      "categorySlug": "agent-and-gtm-developer-tools",
+      "replaces": [
+        "Proprietary retrieval and agent SDKs"
+      ],
+      "description": "Data and retrieval framework for agent applications.",
+      "repositoryDescription": "LlamaIndex is the leading document agent and OCR platform",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 50962,
+      "forks": 7783,
+      "openIssues": 570,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "agents",
+        "application",
+        "data",
+        "fine-tuning",
+        "framework",
+        "llamaindex",
+        "llm",
+        "multi-agents",
+        "rag",
+        "vector-database"
+      ],
+      "components": {
+        "adoption": 22.7,
+        "community": 13.3,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 8,
+        "licence": 10
+      },
+      "score": 87,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/run-llama/llama_index",
+      "website": "https://developers.llamaindex.ai",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/run-llama/llama_index",
+          "https://developers.llamaindex.ai"
+        ]
+      }
+    },
+    {
+      "slug": "slidev",
+      "rank": 22,
+      "categoryRank": 4,
+      "name": "Slidev",
+      "category": "Creative & Content",
+      "categorySlug": "creative-and-content",
+      "replaces": [
+        "Gamma",
+        "Pitch"
+      ],
+      "description": "Developer-focused slide decks from Markdown.",
+      "repositoryDescription": "Presentation Slides for Developers",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 47754,
+      "forks": 2127,
+      "openIssues": 211,
+      "lastPush": "2026-07-14",
+      "daysSincePush": 6,
+      "defaultBranch": "main",
+      "topics": [
+        "markdown",
+        "presentation",
+        "slides",
+        "vite",
+        "vue",
+        "vueuse"
+      ],
+      "components": {
+        "adoption": 22.6,
+        "community": 11.4,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 9,
+        "licence": 10
+      },
+      "score": 87,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/slidevjs/slidev",
+      "website": "https://sli.dev",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/slidevjs/slidev",
+          "https://sli.dev"
+        ]
+      }
+    },
+    {
+      "slug": "zammad",
+      "rank": 24,
+      "categoryRank": 2,
+      "name": "Zammad",
+      "category": "Customer Support & Success",
+      "categorySlug": "customer-support-and-success",
+      "replaces": [
+        "Zendesk",
+        "Freshdesk"
+      ],
+      "description": "Full help desk with email, chat and social channels.",
+      "repositoryDescription": "Zammad is a web based open source helpdesk/customer support system.",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 5767,
+      "forks": 1021,
+      "openIssues": 450,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "develop",
+      "topics": [
+        "coffeescript",
+        "customer-care",
+        "customer-support",
+        "graphql",
+        "helpdesk",
+        "javascript",
+        "rails",
+        "ruby",
+        "support",
+        "ticketing",
+        "typescript",
+        "vite",
+        "vuejs",
+        "zammad"
+      ],
+      "components": {
+        "adoption": 18.2,
+        "community": 10.3,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 15,
+        "licence": 9
+      },
+      "score": 86.5,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/zammad/zammad",
+      "website": "https://zammad.org",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Zendesk, Freshdesk.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/zammad/zammad",
+          "https://zammad.org"
+        ]
+      }
+    },
+    {
+      "slug": "formbricks",
+      "rank": 25,
+      "categoryRank": 2,
+      "name": "Formbricks",
+      "category": "Forms, Surveys & Conversion",
+      "categorySlug": "forms-surveys-and-conversion",
+      "replaces": [
+        "Typeform",
+        "Delighted"
+      ],
+      "description": "Surveys and in-product feedback.",
+      "repositoryDescription": "Open Source Qualtrics Alternative",
+      "licence": "AGPL-3.0 core + enterprise files",
+      "licenceModel": "Open core (copyleft)",
+      "licenceMeaning": "Copyleft core with separately licensed enterprise features.",
+      "stars": 12583,
+      "forks": 2404,
+      "openIssues": 209,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "experience-management",
+        "form",
+        "forms",
+        "nextjs",
+        "open-source",
+        "react",
+        "reactjs",
+        "survey",
+        "survey-analysis",
+        "survey-data",
+        "survey-form",
+        "surveys",
+        "tailwindcss",
+        "turborepo",
+        "typeform",
+        "typescript",
+        "xm"
+      ],
+      "components": {
+        "adoption": 19.8,
+        "community": 11.5,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 14,
+        "licence": 7
+      },
+      "score": 86.3,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/formbricks/formbricks",
+      "website": "https://formbricks.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Typeform, Delighted.",
+        "licence": "Open core (copyleft): Copyleft core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/formbricks/formbricks",
+          "https://formbricks.com"
+        ]
+      }
+    },
+    {
+      "slug": "crawlee",
+      "rank": 26,
+      "categoryRank": 2,
+      "name": "Crawlee",
+      "category": "Prospecting & Web Data",
+      "categorySlug": "prospecting-and-web-data",
+      "replaces": [
+        "Apify",
+        "Bright Data collectors"
+      ],
+      "description": "Web scraping and browser automation library.",
+      "repositoryDescription": "Crawlee—A web scraping and browser automation library for Node.js to build reliable crawlers. In JavaScript and TypeScript. Extract data for AI, LLMs, RAG, or GPTs. Download HTML, PDF, JPG, PNG, and other files from websites. Works with Puppeteer, Playwright, Cheerio, JSDOM, and raw HTTP. Both headful and headless mode. With proxy rotation.",
+      "licence": "Apache-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 24824,
+      "forks": 1565,
+      "openIssues": 171,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "apify",
+        "automation",
+        "crawler",
+        "crawling",
+        "headless",
+        "headless-chrome",
+        "javascript",
+        "nodejs",
+        "npm",
+        "playwright",
+        "puppeteer",
+        "scraper",
+        "scraping",
+        "typescript",
+        "web-crawler",
+        "web-crawling",
+        "web-scraping"
+      ],
+      "components": {
+        "adoption": 21.2,
+        "community": 10.9,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 11,
+        "licence": 10
+      },
+      "score": 86.1,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/apify/crawlee",
+      "website": "https://crawlee.dev",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/apify/crawlee",
+          "https://crawlee.dev"
+        ]
+      }
+    },
+    {
+      "slug": "searxng",
+      "rank": 27,
+      "categoryRank": 3,
+      "name": "SearXNG",
+      "category": "Prospecting & Web Data",
+      "categorySlug": "prospecting-and-web-data",
+      "replaces": [
+        "Google Search API",
+        "SerpAPI"
+      ],
+      "description": "Private metasearch engine usable as a search data source.",
+      "repositoryDescription": "SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 34164,
+      "forks": 3166,
+      "openIssues": 214,
+      "lastPush": "2026-07-19",
+      "daysSincePush": 1,
+      "defaultBranch": "master",
+      "topics": [
+        "bing",
+        "brave",
+        "degoogle",
+        "duckduckgo",
+        "google",
+        "metasearch",
+        "privacy",
+        "python",
+        "qwant",
+        "search",
+        "search-engine",
+        "searx",
+        "searxng",
+        "startpage",
+        "yahoo"
+      ],
+      "components": {
+        "adoption": 21.9,
+        "community": 12,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 9,
+        "licence": 9
+      },
+      "score": 85.9,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/searxng/searxng",
+      "website": "https://docs.searxng.org",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/searxng/searxng",
+          "https://docs.searxng.org"
+        ]
+      }
+    },
+    {
+      "slug": "espocrm",
+      "rank": 28,
+      "categoryRank": 3,
+      "name": "EspoCRM",
+      "category": "CRM & Revenue Operations",
+      "categorySlug": "crm-and-revenue-operations",
+      "replaces": [
+        "Salesforce",
+        "HubSpot"
+      ],
+      "description": "Established CRM for leads, accounts, deals and service.",
+      "repositoryDescription": "EspoCRM – Open Source CRM Application",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 3151,
+      "forks": 903,
+      "openIssues": 60,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "master",
+      "topics": [
+        "calendar",
+        "contacts",
+        "crm",
+        "crm-platform",
+        "crm-system",
+        "customer-portal",
+        "customer-support",
+        "customizable",
+        "documents",
+        "email-marketing",
+        "kanban",
+        "leads",
+        "open-source",
+        "php",
+        "platform",
+        "sales-automation",
+        "single-page-application",
+        "support"
+      ],
+      "components": {
+        "adoption": 16.9,
+        "community": 10.1,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 15,
+        "licence": 9
+      },
+      "score": 85,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/espocrm/espocrm",
+      "website": "https://www.espocrm.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Salesforce, HubSpot.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/espocrm/espocrm",
+          "https://www.espocrm.com"
+        ]
+      }
+    },
+    {
+      "slug": "webstudio",
+      "rank": 29,
+      "categoryRank": 3,
+      "name": "Webstudio",
+      "category": "Website & Content",
+      "categorySlug": "website-and-content",
+      "replaces": [
+        "Webflow",
+        "Framer"
+      ],
+      "description": "Visual website builder with open code and self-hosting.",
+      "repositoryDescription": "Open source website builder and Webflow alternative. Webstudio is an advanced visual builder that connects to any headless CMS, supports all CSS properties, and can be hosted anywhere, including with us.",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 8746,
+      "forks": 1559,
+      "openIssues": 347,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "accessibility",
+        "alternative",
+        "cloudflare",
+        "cloudflare-workers",
+        "design",
+        "free",
+        "frontend",
+        "open-source",
+        "radix-ui",
+        "react",
+        "remix",
+        "web-development",
+        "webflow",
+        "website-builder",
+        "website-development",
+        "websites",
+        "webstudio"
+      ],
+      "components": {
+        "adoption": 19,
+        "community": 10.9,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 14,
+        "licence": 9
+      },
+      "score": 84.9,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/webstudio-is/webstudio",
+      "website": "https://webstudio.is",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Webflow, Framer.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/webstudio-is/webstudio",
+          "https://webstudio.is"
+        ]
+      }
+    },
+    {
+      "slug": "growthbook",
+      "rank": 30,
+      "categoryRank": 5,
+      "name": "GrowthBook",
+      "category": "Analytics & Experimentation",
+      "categorySlug": "analytics-and-experimentation",
+      "replaces": [
+        "Optimizely",
+        "LaunchDarkly"
+      ],
+      "description": "Feature flags and experimentation with warehouse-native analysis.",
+      "repositoryDescription": "Open Source Feature Flags, Experimentation, and Product Analytics",
+      "licence": "MIT core + enterprise files",
+      "licenceModel": "Open core (permissive)",
+      "licenceMeaning": "Open-source core with separately licensed enterprise features.",
+      "stars": 8009,
+      "forks": 796,
+      "openIssues": 803,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "ab-testing",
+        "abtest",
+        "abtesting",
+        "analytics",
+        "bigquery",
+        "clickhouse",
+        "continuous-delivery",
+        "data-analysis",
+        "data-engineering",
+        "data-science",
+        "databricks",
+        "experimentation",
+        "feature-flagging",
+        "feature-flags",
+        "redshift",
+        "remote-config",
+        "snowflake",
+        "split-testing",
+        "statistics",
+        "warehouse-native"
+      ],
+      "components": {
+        "adoption": 18.9,
+        "community": 9.9,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 14,
+        "licence": 8
+      },
+      "score": 84.8,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/growthbook/growthbook",
+      "website": "https://www.growthbook.io",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Optimizely, LaunchDarkly.",
+        "licence": "Open core (permissive): Open-source core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/growthbook/growthbook",
+          "https://www.growthbook.io"
+        ]
+      }
+    },
+    {
+      "slug": "windmill",
+      "rank": 30,
+      "categoryRank": 3,
+      "name": "Windmill",
+      "category": "Workflow Automation",
+      "categorySlug": "workflow-automation",
+      "replaces": [
+        "Retool Workflows",
+        "Zapier"
+      ],
+      "description": "Developer automation, workflows and internal applications.",
+      "repositoryDescription": "Open-source developer platform to power your entire infra and turn scripts into webhooks, workflows and UIs. Fastest workflow engine (13x vs Airflow). Open-source alternative to Retool and Temporal.",
+      "licence": "AGPL-3.0 / Apache-2.0 core + enterprise files",
+      "licenceModel": "Open core (copyleft)",
+      "licenceMeaning": "Copyleft core with separately licensed enterprise features.",
+      "stars": 17198,
+      "forks": 1037,
+      "openIssues": 804,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "low-code",
+        "open-source",
+        "platform",
+        "postgresql",
+        "python",
+        "self-hostable",
+        "typescript"
+      ],
+      "components": {
+        "adoption": 20.5,
+        "community": 10.3,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 13,
+        "licence": 7
+      },
+      "score": 84.8,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/windmill-labs/windmill",
+      "website": "https://windmill.dev",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Retool Workflows, Zapier.",
+        "licence": "Open core (copyleft): Copyleft core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/windmill-labs/windmill",
+          "https://windmill.dev"
+        ]
+      }
+    },
+    {
+      "slug": "langfuse",
+      "rank": 32,
+      "categoryRank": 5,
+      "name": "Langfuse",
+      "category": "Agent & GTM Developer Tools",
+      "categorySlug": "agent-and-gtm-developer-tools",
+      "replaces": [
+        "LangSmith",
+        "agent observability services"
+      ],
+      "description": "Tracing, evaluation and prompt management for AI applications.",
+      "repositoryDescription": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+      "licence": "MIT core + enterprise files",
+      "licenceModel": "Open core (permissive)",
+      "licenceMeaning": "Open-source core with separately licensed enterprise features.",
+      "stars": 31501,
+      "forks": 3325,
+      "openIssues": 719,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "analytics",
+        "autogen",
+        "evaluation",
+        "langchain",
+        "large-language-models",
+        "llama-index",
+        "llm",
+        "llm-evaluation",
+        "llm-observability",
+        "llmops",
+        "monitoring",
+        "observability",
+        "open-source",
+        "openai",
+        "playground",
+        "prompt-engineering",
+        "prompt-management",
+        "self-hosted",
+        "ycombinator"
+      ],
+      "components": {
+        "adoption": 21.7,
+        "community": 12,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 9,
+        "licence": 8
+      },
+      "score": 84.7,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/langfuse/langfuse",
+      "website": "https://langfuse.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Open core (permissive): Open-source core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/langfuse/langfuse",
+          "https://langfuse.com"
+        ]
+      }
+    },
+    {
+      "slug": "freescout",
+      "rank": 33,
+      "categoryRank": 3,
+      "name": "FreeScout",
+      "category": "Customer Support & Success",
+      "categorySlug": "customer-support-and-success",
+      "replaces": [
+        "Help Scout",
+        "Zendesk"
+      ],
+      "description": "Lightweight shared inbox and help desk.",
+      "repositoryDescription": "FreeScout — Free self-hosted help desk & shared mailbox (Zendesk / Help Scout alternative)",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 4427,
+      "forks": 690,
+      "openIssues": 39,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "dist",
+      "topics": [
+        "customer-support",
+        "help-desk",
+        "helpdesk",
+        "helpdesk-ticketing",
+        "helpscout",
+        "laravel",
+        "osticket-alternative",
+        "php",
+        "shared-mailboxes",
+        "support",
+        "ticketing",
+        "ticketing-system",
+        "zendesk",
+        "zendesk-alternative"
+      ],
+      "components": {
+        "adoption": 17.6,
+        "community": 9.7,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 14,
+        "licence": 9
+      },
+      "score": 84.3,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/freescout-help-desk/freescout",
+      "website": "https://freescout.net",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Help Scout, Zendesk.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/freescout-help-desk/freescout",
+          "https://freescout.net"
+        ]
+      }
+    },
+    {
+      "slug": "heyform",
+      "rank": 34,
+      "categoryRank": 3,
+      "name": "HeyForm",
+      "category": "Forms, Surveys & Conversion",
+      "categorySlug": "forms-surveys-and-conversion",
+      "replaces": [
+        "Typeform",
+        "Google Forms"
+      ],
+      "description": "Form and survey builder.",
+      "repositoryDescription": "Open-Source Form Builder",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 8887,
+      "forks": 688,
+      "openIssues": 10,
+      "lastPush": "2026-07-14",
+      "daysSincePush": 6,
+      "defaultBranch": "next",
+      "topics": [
+        "form",
+        "quiz",
+        "survey"
+      ],
+      "components": {
+        "adoption": 19.1,
+        "community": 9.7,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 13,
+        "licence": 9
+      },
+      "score": 83.8,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/heyform/heyform",
+      "website": "https://heyform.net",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Typeform, Google Forms.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/heyform/heyform",
+          "https://heyform.net"
+        ]
+      }
+    },
+    {
+      "slug": "easy-appointments",
+      "rank": 35,
+      "categoryRank": 4,
+      "name": "Easy!Appointments",
+      "category": "Forms, Surveys & Conversion",
+      "categorySlug": "forms-surveys-and-conversion",
+      "replaces": [
+        "Calendly",
+        "Acuity Scheduling"
+      ],
+      "description": "Self-hosted appointment scheduling.",
+      "repositoryDescription": ":date: Easy!Appointments - Self Hosted Appointment Scheduler",
+      "licence": "GPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 4267,
+      "forks": 1544,
+      "openIssues": 155,
+      "lastPush": "2026-07-17",
+      "daysSincePush": 3,
+      "defaultBranch": "main",
+      "topics": [
+        "appointments",
+        "codeigniter",
+        "events",
+        "google-calendar",
+        "javascript",
+        "mysql",
+        "php",
+        "rest-api",
+        "scheduler",
+        "sync",
+        "time",
+        "web"
+      ],
+      "components": {
+        "adoption": 17.5,
+        "community": 10.9,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 12,
+        "licence": 9
+      },
+      "score": 83.4,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/alextselegidis/easyappointments",
+      "website": "https://easyappointments.org",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Calendly, Acuity Scheduling.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/alextselegidis/easyappointments",
+          "https://easyappointments.org"
+        ]
+      }
+    },
+    {
+      "slug": "meetily",
+      "rank": 36,
+      "categoryRank": 1,
+      "name": "Meetily",
+      "category": "Conversation Intelligence",
+      "categorySlug": "conversation-intelligence",
+      "replaces": [
+        "Granola",
+        "Otter.ai",
+        "Fireflies.ai"
+      ],
+      "description": "Local meeting transcription and summarisation.",
+      "repositoryDescription": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 25753,
+      "forks": 2579,
+      "openIssues": 302,
+      "lastPush": "2026-06-05",
+      "daysSincePush": 45,
+      "defaultBranch": "main",
+      "topics": [
+        "ai",
+        "ai-meeting-assistant",
+        "llm",
+        "local-ai",
+        "mac",
+        "meeting-minutes",
+        "meeting-notes",
+        "offline-first",
+        "ollama",
+        "parakeet",
+        "privacy-focused",
+        "privacy-tools",
+        "rust",
+        "self-hosted",
+        "sortformer",
+        "speech-to-text",
+        "transcription",
+        "whisper",
+        "whisper-cpp",
+        "windows"
+      ],
+      "components": {
+        "adoption": 21.3,
+        "community": 11.6,
+        "activity": 14,
+        "deployment": 13,
+        "gtmFit": 13,
+        "licence": 10
+      },
+      "score": 82.9,
+      "eligible": true,
+      "maturity": "Established",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/Zackriya-Solutions/meetily",
+      "website": "https://meetily.ai",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Granola, Otter.ai, Fireflies.ai.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/Zackriya-Solutions/meetily",
+          "https://meetily.ai"
+        ]
+      }
+    },
+    {
+      "slug": "presenton",
+      "rank": 36,
+      "categoryRank": 5,
+      "name": "Presenton",
+      "category": "Creative & Content",
+      "categorySlug": "creative-and-content",
+      "replaces": [
+        "Gamma",
+        "Beautiful.ai"
+      ],
+      "description": "AI presentation generation with self-hosting.",
+      "repositoryDescription": "Open-Source AI Presentation Generator and API (Gamma, Canva, Beautiful AI, Decktopus, Presentations AI Alternative)",
+      "licence": "Apache-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 9121,
+      "forks": 1427,
+      "openIssues": 33,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "ai-agent",
+        "ai-presentation",
+        "api",
+        "gamma",
+        "powerpoint-automation",
+        "powerpoint-free",
+        "powerpoint-generation",
+        "presentation"
+      ],
+      "components": {
+        "adoption": 19.1,
+        "community": 10.8,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 11,
+        "licence": 10
+      },
+      "score": 82.9,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/presenton/presenton",
+      "website": "https://presenton.ai",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/presenton/presenton",
+          "https://presenton.ai"
+        ]
+      }
+    },
+    {
+      "slug": "corteza",
+      "rank": 38,
+      "categoryRank": 4,
+      "name": "Corteza",
+      "category": "CRM & Revenue Operations",
+      "categorySlug": "crm-and-revenue-operations",
+      "replaces": [
+        "Salesforce",
+        "Microsoft Dynamics 365"
+      ],
+      "description": "Low-code business platform with CRM applications.",
+      "repositoryDescription": "Low-code platform",
+      "licence": "Apache-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 2119,
+      "forks": 507,
+      "openIssues": 256,
+      "lastPush": "2026-07-17",
+      "daysSincePush": 3,
+      "defaultBranch": "2024.9.x",
+      "topics": [
+        "go",
+        "golang",
+        "javascript",
+        "low-code",
+        "typescipt",
+        "vuejs"
+      ],
+      "components": {
+        "adoption": 16.1,
+        "community": 9.2,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 14,
+        "licence": 10
+      },
+      "score": 82.3,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/cortezaproject/corteza",
+      "website": "https://cortezaproject.org",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Salesforce, Microsoft Dynamics 365.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/cortezaproject/corteza",
+          "https://cortezaproject.org"
+        ]
+      }
+    },
+    {
+      "slug": "openpanel",
+      "rank": 39,
+      "categoryRank": 6,
+      "name": "OpenPanel",
+      "category": "Analytics & Experimentation",
+      "categorySlug": "analytics-and-experimentation",
+      "replaces": [
+        "Mixpanel",
+        "Amplitude"
+      ],
+      "description": "Web and product analytics with self-hosting.",
+      "repositoryDescription": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 6187,
+      "forks": 398,
+      "openIssues": 69,
+      "lastPush": "2026-07-06",
+      "daysSincePush": 14,
+      "defaultBranch": "main",
+      "topics": [
+        "alternative",
+        "analytics",
+        "open-source",
+        "privacy",
+        "productanalytics",
+        "webanalytics"
+      ],
+      "components": {
+        "adoption": 18.3,
+        "community": 8.9,
+        "activity": 18,
+        "deployment": 13,
+        "gtmFit": 14,
+        "licence": 9
+      },
+      "score": 81.2,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/Openpanel-dev/openpanel",
+      "website": "https://openpanel.dev",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Mixpanel, Amplitude.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/Openpanel-dev/openpanel",
+          "https://openpanel.dev"
+        ]
+      }
+    },
+    {
+      "slug": "plunk",
+      "rank": 40,
+      "categoryRank": 3,
+      "name": "Plunk",
+      "category": "Marketing Automation & Email",
+      "categorySlug": "marketing-automation-and-email",
+      "replaces": [
+        "Loops",
+        "Customer.io"
+      ],
+      "description": "Email platform for transactional and marketing messages.",
+      "repositoryDescription": "The Open-Source Email Platform",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 5279,
+      "forks": 377,
+      "openIssues": 36,
+      "lastPush": "2026-07-11",
+      "daysSincePush": 9,
+      "defaultBranch": "next",
+      "topics": [],
+      "components": {
+        "adoption": 18,
+        "community": 8.8,
+        "activity": 18,
+        "deployment": 13,
+        "gtmFit": 14,
+        "licence": 9
+      },
+      "score": 80.8,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/useplunk/plunk",
+      "website": "https://www.useplunk.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Loops, Customer.io.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/useplunk/plunk",
+          "https://www.useplunk.com"
+        ]
+      }
+    },
+    {
+      "slug": "jitsu",
+      "rank": 41,
+      "categoryRank": 1,
+      "name": "Jitsu",
+      "category": "Customer Data & Activation",
+      "categorySlug": "customer-data-and-activation",
+      "replaces": [
+        "Segment",
+        "RudderStack"
+      ],
+      "description": "Event collection and data routing.",
+      "repositoryDescription": "Jitsu is an open-source Segment alternative. Fully-scriptable data ingestion engine for modern data teams. Set-up a real-time data pipeline in minutes, not days",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 4812,
+      "forks": 359,
+      "openIssues": 26,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "newjitsu",
+      "topics": [
+        "bigquery",
+        "clickhouse",
+        "data-collection",
+        "data-connectors",
+        "data-integration",
+        "golang",
+        "postgres",
+        "redshift",
+        "snowflake"
+      ],
+      "components": {
+        "adoption": 17.8,
+        "community": 8.7,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 12,
+        "licence": 10
+      },
+      "score": 80.5,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/jitsucom/jitsu",
+      "website": "https://jitsu.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Segment, RudderStack.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/jitsucom/jitsu",
+          "https://jitsu.com"
+        ]
+      }
+    },
+    {
+      "slug": "vexa",
+      "rank": 42,
+      "categoryRank": 2,
+      "name": "Vexa",
+      "category": "Conversation Intelligence",
+      "categorySlug": "conversation-intelligence",
+      "replaces": [
+        "Recall.ai",
+        "Fireflies.ai"
+      ],
+      "description": "Meeting bot and real-time transcription API.",
+      "repositoryDescription": "Open-source meeting transcription API for Google Meet, Microsoft Teams & Zoom. Auto-join bots, real-time WebSocket transcripts, MCP server for AI agents. Self-host or use hosted SaaS.",
+      "licence": "Apache-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 2568,
+      "forks": 388,
+      "openIssues": 132,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "google-meet",
+        "meeting-assistant",
+        "meeting-minutes",
+        "meeting-notes",
+        "ms-teams",
+        "ms-teams-app",
+        "notetaker",
+        "zoom"
+      ],
+      "components": {
+        "adoption": 16.5,
+        "community": 8.8,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 13,
+        "licence": 10
+      },
+      "score": 80.3,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/Vexa-ai/vexa",
+      "website": "https://vexa.ai",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Recall.ai, Fireflies.ai.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/Vexa-ai/vexa",
+          "https://vexa.ai"
+        ]
+      }
+    },
+    {
+      "slug": "snowplow",
+      "rank": 43,
+      "categoryRank": 2,
+      "name": "Snowplow",
+      "category": "Customer Data & Activation",
+      "categorySlug": "customer-data-and-activation",
+      "replaces": [
+        "Segment",
+        "mParticle"
+      ],
+      "description": "Behavioural data collection and customer data infrastructure.",
+      "repositoryDescription": "The leader in Customer Data Infrastructure",
+      "licence": "Apache-2.0",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 7021,
+      "forks": 1171,
+      "openIssues": 59,
+      "lastPush": "2026-06-26",
+      "daysSincePush": 24,
+      "defaultBranch": "master",
+      "topics": [
+        "analytics",
+        "data",
+        "data-collection",
+        "data-pipeline",
+        "marketing-analytics",
+        "product-analytics",
+        "snowplow",
+        "snowplow-events",
+        "snowplow-pipeline"
+      ],
+      "components": {
+        "adoption": 18.6,
+        "community": 10.5,
+        "activity": 18,
+        "deployment": 10,
+        "gtmFit": 13,
+        "licence": 10
+      },
+      "score": 80.1,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Strong shortlist",
+      "github": "https://github.com/snowplow/snowplow",
+      "website": "https://snowplow.io",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Segment, mParticle.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/snowplow/snowplow",
+          "https://snowplow.io"
+        ]
+      }
+    },
+    {
+      "slug": "atomic-crm",
+      "rank": 44,
+      "categoryRank": 5,
+      "name": "Atomic CRM",
+      "category": "CRM & Revenue Operations",
+      "categorySlug": "crm-and-revenue-operations",
+      "replaces": [
+        "Attio",
+        "Pipedrive"
+      ],
+      "description": "Developer-friendly React CRM toolkit.",
+      "repositoryDescription": "A full-featured CRM built with React, shadcn/ui, and Supabase.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 1150,
+      "forks": 733,
+      "openIssues": 14,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "crm",
+        "react",
+        "react-admin",
+        "react-hook-form",
+        "react-query",
+        "react-router",
+        "shadcn-ui",
+        "supabase"
+      ],
+      "components": {
+        "adoption": 14.8,
+        "community": 9.8,
+        "activity": 20,
+        "deployment": 10,
+        "gtmFit": 13,
+        "licence": 10
+      },
+      "score": 77.6,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Pilot",
+      "github": "https://github.com/marmelab/atomic-crm",
+      "website": "http://marmelab.com/atomic-crm/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Attio, Pipedrive.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/marmelab/atomic-crm",
+          "http://marmelab.com/atomic-crm/"
+        ]
+      }
+    },
+    {
+      "slug": "meltano",
+      "rank": 45,
+      "categoryRank": 3,
+      "name": "Meltano",
+      "category": "Customer Data & Activation",
+      "categorySlug": "customer-data-and-activation",
+      "replaces": [
+        "Fivetran",
+        "Stitch Data"
+      ],
+      "description": "Data integration platform built on Singer connectors.",
+      "repositoryDescription": "Meltano: the declarative code-first data integration engine that powers your wildest data and ML-powered product ideas. Say goodbye to writing, maintaining, and scaling your own API integrations.",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 2565,
+      "forks": 256,
+      "openIssues": 156,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "connectors",
+        "data",
+        "data-engineering",
+        "data-pipelines",
+        "dataops",
+        "dataops-platform",
+        "elt",
+        "extract-data",
+        "integration",
+        "loaders",
+        "meltano",
+        "meltano-sdk",
+        "open-source",
+        "opensource",
+        "pipelines",
+        "singer",
+        "tap",
+        "taps",
+        "target",
+        "targets"
+      ],
+      "components": {
+        "adoption": 16.5,
+        "community": 8.2,
+        "activity": 20,
+        "deployment": 12,
+        "gtmFit": 10,
+        "licence": 10
+      },
+      "score": 76.7,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Pilot",
+      "github": "https://github.com/meltano/meltano",
+      "website": "https://meltano.com/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/meltano/meltano",
+          "https://meltano.com/"
+        ]
+      }
+    },
+    {
+      "slug": "suitecrm",
+      "rank": 45,
+      "categoryRank": 6,
+      "name": "SuiteCRM",
+      "category": "CRM & Revenue Operations",
+      "categorySlug": "crm-and-revenue-operations",
+      "replaces": [
+        "Salesforce",
+        "Microsoft Dynamics 365"
+      ],
+      "description": "Feature-rich enterprise CRM descended from SugarCRM.",
+      "repositoryDescription": "SuiteCRM - Open source CRM for the world",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 270,
+      "forks": 199,
+      "openIssues": 312,
+      "lastPush": "2026-07-15",
+      "daysSincePush": 5,
+      "defaultBranch": "hotfix",
+      "topics": [],
+      "components": {
+        "adoption": 11.8,
+        "community": 7.9,
+        "activity": 20,
+        "deployment": 13,
+        "gtmFit": 15,
+        "licence": 9
+      },
+      "score": 76.7,
+      "eligible": true,
+      "maturity": "Early",
+      "recommendation": "Pilot",
+      "github": "https://github.com/SuiteCRM/SuiteCRM-Core",
+      "website": "https://www.suitecrm.com",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Salesforce, Microsoft Dynamics 365.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/SuiteCRM/SuiteCRM-Core",
+          "https://www.suitecrm.com"
+        ]
+      }
+    },
+    {
+      "slug": "keila",
+      "rank": 47,
+      "categoryRank": 4,
+      "name": "Keila",
+      "category": "Marketing Automation & Email",
+      "categorySlug": "marketing-automation-and-email",
+      "replaces": [
+        "Mailchimp",
+        "Buttondown"
+      ],
+      "description": "Newsletter tool with campaigns, forms and segments.",
+      "repositoryDescription": "Open Source Newsletter Tool.",
+      "licence": "AGPL-3.0",
+      "licenceModel": "Copyleft open source",
+      "licenceMeaning": "Open source with share-alike duties when distributing changes.",
+      "stars": 2164,
+      "forks": 158,
+      "openIssues": 66,
+      "lastPush": "2026-06-30",
+      "daysSincePush": 20,
+      "defaultBranch": "main",
+      "topics": [],
+      "components": {
+        "adoption": 16.1,
+        "community": 7.5,
+        "activity": 18,
+        "deployment": 12,
+        "gtmFit": 13,
+        "licence": 9
+      },
+      "score": 75.6,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Pilot",
+      "github": "https://github.com/pentacent/keila",
+      "website": "https://keila.io",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "A workable self-host path exists, but setup or ongoing operation needs more technical effort.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Mailchimp, Buttondown.",
+        "licence": "Copyleft open source: Open source with share-alike duties when distributing changes.",
+        "links": [
+          "https://github.com/pentacent/keila",
+          "https://keila.io"
+        ]
+      }
+    },
+    {
+      "slug": "marp",
+      "rank": 48,
+      "categoryRank": 6,
+      "name": "Marp",
+      "category": "Creative & Content",
+      "categorySlug": "creative-and-content",
+      "replaces": [
+        "Gamma",
+        "PowerPoint"
+      ],
+      "description": "Markdown presentation ecosystem.",
+      "repositoryDescription": "The entrance repository of Markdown presentation ecosystem",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 12215,
+      "forks": 288,
+      "openIssues": 1,
+      "lastPush": "2026-05-01",
+      "daysSincePush": 80,
+      "defaultBranch": "main",
+      "topics": [
+        "deck",
+        "markdown",
+        "marp",
+        "presentation",
+        "slides"
+      ],
+      "components": {
+        "adoption": 19.7,
+        "community": 8.4,
+        "activity": 14,
+        "deployment": 14,
+        "gtmFit": 8,
+        "licence": 10
+      },
+      "score": 74.1,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Pilot",
+      "github": "https://github.com/marp-team/marp",
+      "website": "https://marp.app/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/marp-team/marp",
+          "https://marp.app/"
+        ]
+      }
+    },
+    {
+      "slug": "dittofeed",
+      "rank": 49,
+      "categoryRank": 5,
+      "name": "Dittofeed",
+      "category": "Marketing Automation & Email",
+      "categorySlug": "marketing-automation-and-email",
+      "replaces": [
+        "Customer.io",
+        "Braze"
+      ],
+      "description": "Customer engagement workflows for email and messaging.",
+      "repositoryDescription": "Open-source customer engagement. Automate transactional and marketing messages across email, SMS, mobile push, WhatsApp, Slack, and more 📨",
+      "licence": "MIT",
+      "licenceModel": "Permissive open source",
+      "licenceMeaning": "Broad rights to use, change and redistribute.",
+      "stars": 2865,
+      "forks": 368,
+      "openIssues": 48,
+      "lastPush": "2026-03-28",
+      "daysSincePush": 114,
+      "defaultBranch": "main",
+      "topics": [
+        "broadcast",
+        "customer-engagement",
+        "customer-segmentation",
+        "email",
+        "email-notification",
+        "embedded",
+        "javascipt",
+        "journey",
+        "messaging-app",
+        "messaging-platform",
+        "nodejs",
+        "onboarding",
+        "open-source",
+        "push-notifications",
+        "react",
+        "self-hosted",
+        "sms-notifications",
+        "transactional-emails",
+        "typescript",
+        "white-label"
+      ],
+      "components": {
+        "adoption": 16.7,
+        "community": 8.8,
+        "activity": 10,
+        "deployment": 13,
+        "gtmFit": 15,
+        "licence": 10
+      },
+      "score": 73.5,
+      "eligible": true,
+      "maturity": "Growing",
+      "recommendation": "Pilot",
+      "github": "https://github.com/dittofeed/dittofeed",
+      "website": "https://dittofeed.com/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Customer.io, Braze.",
+        "licence": "Permissive open source: Broad rights to use, change and redistribute.",
+        "links": [
+          "https://github.com/dittofeed/dittofeed",
+          "https://dittofeed.com/"
+        ]
+      }
+    },
+    {
+      "slug": "automatisch",
+      "rank": 50,
+      "categoryRank": 4,
+      "name": "Automatisch",
+      "category": "Workflow Automation",
+      "categorySlug": "workflow-automation",
+      "replaces": [
+        "Zapier",
+        "Make"
+      ],
+      "description": "Self-hosted business workflow automation.",
+      "repositoryDescription": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+      "licence": "AGPL-3.0 core + enterprise files",
+      "licenceModel": "Open core (copyleft)",
+      "licenceMeaning": "Copyleft core with separately licensed enterprise features.",
+      "stars": 13892,
+      "forks": 1059,
+      "openIssues": 283,
+      "lastPush": "2026-02-11",
+      "daysSincePush": 159,
+      "defaultBranch": "main",
+      "topics": [
+        "automation",
+        "automatisch",
+        "low-code",
+        "no-code",
+        "open-source",
+        "self-hosted",
+        "workflow"
+      ],
+      "components": {
+        "adoption": 20,
+        "community": 10.3,
+        "activity": 10,
+        "deployment": 13,
+        "gtmFit": 13,
+        "licence": 7
+      },
+      "score": 73.3,
+      "eligible": true,
+      "maturity": "Mature",
+      "recommendation": "Pilot",
+      "github": "https://github.com/automatisch/automatisch",
+      "website": "https://automatisch.io",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Zapier, Make.",
+        "licence": "Open core (copyleft): Copyleft core with separately licensed enterprise features.",
+        "links": [
+          "https://github.com/automatisch/automatisch",
+          "https://automatisch.io"
+        ]
+      }
+    },
+    {
+      "slug": "dify",
+      "rank": null,
+      "categoryRank": null,
+      "name": "Dify",
+      "category": "Agent & GTM Developer Tools",
+      "categorySlug": "agent-and-gtm-developer-tools",
+      "replaces": [
+        "AirOps",
+        "proprietary agent builders"
+      ],
+      "description": "Agent and language-model application platform.",
+      "repositoryDescription": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "licence": "Modified Apache-2.0 with added restrictions",
+      "licenceModel": "Source available",
+      "licenceMeaning": "Code can be read, but added restrictions prevent strict open-source classification.",
+      "stars": 149491,
+      "forks": 23558,
+      "openIssues": 1085,
+      "lastPush": "2026-07-20",
+      "daysSincePush": 0,
+      "defaultBranch": "main",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "claude",
+        "genai",
+        "gpt",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "orchestration",
+        "python",
+        "rag",
+        "skills",
+        "workflow"
+      ],
+      "components": {
+        "adoption": 25,
+        "community": 14.9,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 11,
+        "licence": 2
+      },
+      "score": 86.9,
+      "eligible": false,
+      "maturity": "Established",
+      "recommendation": "Watchlist",
+      "github": "https://github.com/langgenius/dify",
+      "website": "https://dify.ai",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Useful enabling software for go-to-market teams, but requires assembly or technical integration.",
+        "licence": "Source available: Code can be read, but added restrictions prevent strict open-source classification.",
+        "links": [
+          "https://github.com/langgenius/dify",
+          "https://dify.ai"
+        ]
+      }
+    },
+    {
+      "slug": "typebot",
+      "rank": null,
+      "categoryRank": null,
+      "name": "Typebot",
+      "category": "Forms, Surveys & Conversion",
+      "categorySlug": "forms-surveys-and-conversion",
+      "replaces": [
+        "Typeform",
+        "Intercom chat flows"
+      ],
+      "description": "Conversational form builder and embeddable chat flows.",
+      "repositoryDescription": "💬 Typebot is a powerful chatbot builder that you can self-host.",
+      "licence": "FSL-1.1-Apache-2.0 future licence",
+      "licenceModel": "Source available",
+      "licenceMeaning": "Code can be read, but added restrictions prevent strict open-source classification.",
+      "stars": 10172,
+      "forks": 3149,
+      "openIssues": 192,
+      "lastPush": "2026-07-15",
+      "daysSincePush": 5,
+      "defaultBranch": "main",
+      "topics": [
+        "chat-application",
+        "chatbot",
+        "conversational-bots",
+        "form-builder",
+        "nextjs",
+        "tailwindcss"
+      ],
+      "components": {
+        "adoption": 19.4,
+        "community": 11.9,
+        "activity": 20,
+        "deployment": 14,
+        "gtmFit": 14,
+        "licence": 2
+      },
+      "score": 81.3,
+      "eligible": false,
+      "maturity": "Mature",
+      "recommendation": "Watchlist",
+      "github": "https://github.com/baptisteArno/typebot.io",
+      "website": "https://typebot.io",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Clear self-host path and strong setup documentation; some operating work remains.",
+        "gtmFit": "Supports a substantial go-to-market workflow and replaces part of Typeform, Intercom chat flows.",
+        "licence": "Source available: Code can be read, but added restrictions prevent strict open-source classification.",
+        "links": [
+          "https://github.com/baptisteArno/typebot.io",
+          "https://typebot.io"
+        ]
+      }
+    },
+    {
+      "slug": "geo-aeo-tracker",
+      "rank": null,
+      "categoryRank": null,
+      "name": "GEO/AEO Tracker",
+      "category": "AI Answer Visibility",
+      "categorySlug": "ai-answer-visibility",
+      "replaces": [
+        "Profound",
+        "Scrunch AI",
+        "Peec AI"
+      ],
+      "description": "Early local-first tracker for brand visibility in AI answers.",
+      "repositoryDescription": "Open-source, local-first AI visibility intelligence dashboard. Track your brand across 6 AI models.",
+      "licence": "No licence file found",
+      "licenceModel": "Unlicensed / unclear",
+      "licenceMeaning": "No verified licence grant was found.",
+      "stars": 200,
+      "forks": 50,
+      "openIssues": 1,
+      "lastPush": "2026-06-20",
+      "daysSincePush": 30,
+      "defaultBranch": "main",
+      "topics": [
+        "chatgpt",
+        "copilot",
+        "gemini",
+        "geo",
+        "grok",
+        "marketing",
+        "perplexity",
+        "seo",
+        "tools",
+        "typescript",
+        "web-scraping"
+      ],
+      "components": {
+        "adoption": 11.1,
+        "community": 5.8,
+        "activity": 18,
+        "deployment": 9,
+        "gtmFit": 15,
+        "licence": 0
+      },
+      "score": 58.9,
+      "eligible": false,
+      "maturity": "Early",
+      "recommendation": "Watchlist",
+      "github": "https://github.com/danishashko/geo-aeo-tracker",
+      "website": "https://www.linkedin.com/in/daniel-shashko/",
+      "checked": "2026-07-20",
+      "methodVersion": "1.0",
+      "editorialEvidence": {
+        "deployment": "Self-hosting is possible, but the operating path is early, incomplete or aimed primarily at developers.",
+        "gtmFit": "Directly supports a central sales, marketing or customer workflow and replaces Profound, Scrunch AI, Peec AI.",
+        "licence": "Unlicensed / unclear: No verified licence grant was found.",
+        "links": [
+          "https://github.com/danishashko/geo-aeo-tracker",
+          "https://www.linkedin.com/in/daniel-shashko/"
+        ]
+      }
+    }
+  ],
+  "categories": [
+    {
+      "slug": "ai-answer-visibility",
+      "name": "AI Answer Visibility",
+      "eligibleTools": 0,
+      "leader": "No ranked project",
+      "leaderScore": null,
+      "leaderStars": null,
+      "averageScore": null,
+      "marketState": "Early",
+      "description": "Only one researched project, and its licence is not yet clear; keep this category visibly experimental."
+    },
+    {
+      "slug": "agent-and-gtm-developer-tools",
+      "name": "Agent & GTM Developer Tools",
+      "eligibleTools": 5,
+      "leader": "LangChain",
+      "leaderScore": 90.8,
+      "leaderStars": 142171,
+      "averageScore": 87.9,
+      "marketState": "Established choices",
+      "description": "5 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "analytics-and-experimentation",
+      "name": "Analytics & Experimentation",
+      "eligibleTools": 6,
+      "leader": "Umami",
+      "leaderScore": 93.3,
+      "leaderStars": 37768,
+      "averageScore": 87.9,
+      "marketState": "Established choices",
+      "description": "6 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "crm-and-revenue-operations",
+      "name": "CRM & Revenue Operations",
+      "eligibleTools": 6,
+      "leader": "Twenty",
+      "leaderScore": 92.1,
+      "leaderStars": 53330,
+      "averageScore": 83.6,
+      "marketState": "Established choices",
+      "description": "6 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "conversation-intelligence",
+      "name": "Conversation Intelligence",
+      "eligibleTools": 2,
+      "leader": "Meetily",
+      "leaderScore": 82.9,
+      "leaderStars": 25753,
+      "averageScore": 81.6,
+      "marketState": "Developing",
+      "description": "2 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "creative-and-content",
+      "name": "Creative & Content",
+      "eligibleTools": 6,
+      "leader": "Excalidraw",
+      "leaderScore": 92.9,
+      "leaderStars": 127938,
+      "averageScore": 86,
+      "marketState": "Established choices",
+      "description": "6 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "customer-data-and-activation",
+      "name": "Customer Data & Activation",
+      "eligibleTools": 3,
+      "leader": "Jitsu",
+      "leaderScore": 80.5,
+      "leaderStars": 4812,
+      "averageScore": 79.1,
+      "marketState": "Developing",
+      "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "customer-support-and-success",
+      "name": "Customer Support & Success",
+      "eligibleTools": 3,
+      "leader": "Chatwoot",
+      "leaderScore": 93.3,
+      "leaderStars": 34579,
+      "averageScore": 88,
+      "marketState": "Developing",
+      "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "forms-surveys-and-conversion",
+      "name": "Forms, Surveys & Conversion",
+      "eligibleTools": 4,
+      "leader": "Cal.com",
+      "leaderScore": 93.8,
+      "leaderStars": 46636,
+      "averageScore": 86.8,
+      "marketState": "Established choices",
+      "description": "4 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "marketing-automation-and-email",
+      "name": "Marketing Automation & Email",
+      "eligibleTools": 5,
+      "leader": "listmonk",
+      "leaderScore": 90.6,
+      "leaderStars": 22294,
+      "averageScore": 81.8,
+      "marketState": "Established choices",
+      "description": "5 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "prospecting-and-web-data",
+      "name": "Prospecting & Web Data",
+      "eligibleTools": 3,
+      "leader": "Crawl4AI",
+      "leaderScore": 91.7,
+      "leaderStars": 73401,
+      "averageScore": 87.9,
+      "marketState": "Developing",
+      "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "website-and-content",
+      "name": "Website & Content",
+      "eligibleTools": 3,
+      "leader": "Strapi",
+      "leaderScore": 92.1,
+      "leaderStars": 72689,
+      "averageScore": 89.2,
+      "marketState": "Developing",
+      "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+    },
+    {
+      "slug": "workflow-automation",
+      "name": "Workflow Automation",
+      "eligibleTools": 4,
+      "leader": "Activepieces",
+      "leaderScore": 89.4,
+      "leaderStars": 23343,
+      "averageScore": 84,
+      "marketState": "Established choices",
+      "description": "4 eligible projects; compare deployment effort and licence duties before choosing."
+    }
+  ],
+  "replacements": [
+    {
+      "slug": "salesforce",
+      "commercialProduct": "Salesforce",
+      "openSourceOptions": [
+        "Twenty",
+        "EspoCRM",
+        "SuiteCRM",
+        "Corteza"
+      ],
+      "bestStartingPoint": "Twenty for a modern interface; EspoCRM or SuiteCRM for established CRM depth",
+      "limitation": "Migration, email integration and reporting still require testing",
+      "categories": [
+        "CRM & Revenue Operations"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "hubspot",
+      "commercialProduct": "HubSpot",
+      "openSourceOptions": [
+        "Twenty",
+        "EspoCRM",
+        "Krayin CRM",
+        "Mautic"
+      ],
+      "bestStartingPoint": "Combine a CRM with Mautic when both sales and marketing automation are required",
+      "limitation": "No single project matches every HubSpot hub",
+      "categories": [
+        "CRM & Revenue Operations",
+        "Marketing Automation & Email"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "attio",
+      "commercialProduct": "Attio",
+      "openSourceOptions": [
+        "Twenty",
+        "Atomic CRM"
+      ],
+      "bestStartingPoint": "Twenty",
+      "limitation": "Atomic CRM is a toolkit and needs more product work",
+      "categories": [
+        "CRM & Revenue Operations"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "pipedrive",
+      "commercialProduct": "Pipedrive",
+      "openSourceOptions": [
+        "Twenty",
+        "Atomic CRM",
+        "Krayin CRM"
+      ],
+      "bestStartingPoint": "Krayin CRM or Twenty",
+      "limitation": "Check email and forecasting requirements",
+      "categories": [
+        "CRM & Revenue Operations"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "marketo",
+      "commercialProduct": "Marketo",
+      "openSourceOptions": [
+        "Mautic"
+      ],
+      "bestStartingPoint": "Mautic",
+      "limitation": "Operating email delivery and deliverability remains your responsibility",
+      "categories": [
+        "Marketing Automation & Email"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "mailchimp",
+      "commercialProduct": "Mailchimp",
+      "openSourceOptions": [
+        "listmonk",
+        "Keila"
+      ],
+      "bestStartingPoint": "listmonk for high-volume lists; Keila for a simpler newsletter workflow",
+      "limitation": "You must provide and monitor an email delivery provider",
+      "categories": [
+        "Marketing Automation & Email"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "customer-io",
+      "commercialProduct": "Customer.io",
+      "openSourceOptions": [
+        "Dittofeed",
+        "Plunk"
+      ],
+      "bestStartingPoint": "Dittofeed",
+      "limitation": "Confirm channel support and data model before migration",
+      "categories": [
+        "Marketing Automation & Email"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "intercom",
+      "commercialProduct": "Intercom",
+      "openSourceOptions": [
+        "Chatwoot",
+        "Typebot"
+      ],
+      "bestStartingPoint": "Chatwoot",
+      "limitation": "Typebot has a restricted source-available licence",
+      "categories": [
+        "Customer Support & Success",
+        "Forms, Surveys & Conversion"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "zendesk",
+      "commercialProduct": "Zendesk",
+      "openSourceOptions": [
+        "Chatwoot",
+        "Zammad",
+        "FreeScout"
+      ],
+      "bestStartingPoint": "Zammad for a traditional help desk; Chatwoot for messaging",
+      "limitation": "Advanced workforce and compliance features vary",
+      "categories": [
+        "Customer Support & Success"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "mixpanel-amplitude",
+      "commercialProduct": "Mixpanel / Amplitude",
+      "openSourceOptions": [
+        "PostHog",
+        "OpenPanel"
+      ],
+      "bestStartingPoint": "PostHog",
+      "limitation": "Warehouse scale and retention costs still need capacity planning",
+      "categories": [
+        "Analytics & Experimentation"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "google-analytics",
+      "commercialProduct": "Google Analytics",
+      "openSourceOptions": [
+        "Umami",
+        "Plausible Analytics",
+        "Matomo"
+      ],
+      "bestStartingPoint": "Umami or Plausible for simplicity; Matomo for breadth",
+      "limitation": "Advertising integrations differ from Google's ecosystem",
+      "categories": [
+        "Analytics & Experimentation"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "optimizely",
+      "commercialProduct": "Optimizely",
+      "openSourceOptions": [
+        "GrowthBook"
+      ],
+      "bestStartingPoint": "GrowthBook",
+      "limitation": "Experiment design and statistical review remain team responsibilities",
+      "categories": [
+        "Analytics & Experimentation"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "typeform",
+      "commercialProduct": "Typeform",
+      "openSourceOptions": [
+        "Formbricks",
+        "HeyForm",
+        "Typebot"
+      ],
+      "bestStartingPoint": "Formbricks or HeyForm",
+      "limitation": "Typebot is source available rather than strict open source",
+      "categories": [
+        "Forms, Surveys & Conversion"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "calendly-chili-piper",
+      "commercialProduct": "Calendly / Chili Piper",
+      "openSourceOptions": [
+        "Cal.com",
+        "Easy!Appointments"
+      ],
+      "bestStartingPoint": "Cal.com",
+      "limitation": "Enterprise routing and support terms vary",
+      "categories": [
+        "Forms, Surveys & Conversion"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "webflow-framer",
+      "commercialProduct": "Webflow / Framer",
+      "openSourceOptions": [
+        "Webstudio"
+      ],
+      "bestStartingPoint": "Webstudio",
+      "limitation": "Ecosystem and template depth are smaller",
+      "categories": [
+        "Website & Content"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "contentful-sanity",
+      "commercialProduct": "Contentful / Sanity",
+      "openSourceOptions": [
+        "Strapi",
+        "Payload"
+      ],
+      "bestStartingPoint": "Payload for code-first teams; Strapi for a broader admin surface",
+      "limitation": "Both need hosting and operational ownership",
+      "categories": [
+        "Website & Content"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "zapier-make",
+      "commercialProduct": "Zapier / Make",
+      "openSourceOptions": [
+        "Activepieces",
+        "Windmill",
+        "Node-RED",
+        "Automatisch"
+      ],
+      "bestStartingPoint": "Activepieces for business users; Windmill for developers",
+      "limitation": "Connector coverage should be tested against the exact workflow list",
+      "categories": [
+        "Workflow Automation"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "segment",
+      "commercialProduct": "Segment",
+      "openSourceOptions": [
+        "Snowplow",
+        "Jitsu"
+      ],
+      "bestStartingPoint": "Jitsu for a smaller stack; Snowplow for a data platform",
+      "limitation": "Implementation is more technical than hosted Segment",
+      "categories": [
+        "Customer Data & Activation"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "fivetran",
+      "commercialProduct": "Fivetran",
+      "openSourceOptions": [
+        "Meltano"
+      ],
+      "bestStartingPoint": "Meltano",
+      "limitation": "Connector maintenance and scheduling are your responsibility",
+      "categories": [
+        "Customer Data & Activation"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "firecrawl",
+      "commercialProduct": "Firecrawl",
+      "openSourceOptions": [
+        "Crawl4AI",
+        "Crawlee"
+      ],
+      "bestStartingPoint": "Crawl4AI for AI-ready output; Crawlee for general scraping",
+      "limitation": "These are developer tools, not finished sales data products",
+      "categories": [
+        "Prospecting & Web Data"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "midjourney",
+      "commercialProduct": "Midjourney",
+      "openSourceOptions": [
+        "ComfyUI"
+      ],
+      "bestStartingPoint": "ComfyUI",
+      "limitation": "Model files and computing hardware are separate",
+      "categories": [
+        "Creative & Content"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "figma",
+      "commercialProduct": "Figma",
+      "openSourceOptions": [
+        "Penpot"
+      ],
+      "bestStartingPoint": "Penpot",
+      "limitation": "Plugin and design-system migration should be tested",
+      "categories": [
+        "Creative & Content"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "miro-figjam",
+      "commercialProduct": "Miro / FigJam",
+      "openSourceOptions": [
+        "Excalidraw"
+      ],
+      "bestStartingPoint": "Excalidraw",
+      "limitation": "Complex workshop facilitation features are more limited",
+      "categories": [
+        "Creative & Content"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "gamma",
+      "commercialProduct": "Gamma",
+      "openSourceOptions": [
+        "Presenton",
+        "Slidev",
+        "Marp"
+      ],
+      "bestStartingPoint": "Presenton for generated decks; Slidev or Marp for Markdown workflows",
+      "limitation": "Output quality and collaboration differ",
+      "categories": [
+        "Creative & Content"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "fireflies-ai-granola",
+      "commercialProduct": "Fireflies.ai / Granola",
+      "openSourceOptions": [
+        "Meetily",
+        "Vexa"
+      ],
+      "bestStartingPoint": "Meetily for local notes; Vexa for a meeting API",
+      "limitation": "Consent, recording notices and storage rules require local review",
+      "categories": [
+        "Conversation Intelligence"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "profound-scrunch-ai",
+      "commercialProduct": "Profound / Scrunch AI",
+      "openSourceOptions": [
+        "GEO/AEO Tracker"
+      ],
+      "bestStartingPoint": "Monitor only",
+      "limitation": "The researched project has no verified licence and the category is early",
+      "categories": [
+        "AI Answer Visibility"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    },
+    {
+      "slug": "airops",
+      "commercialProduct": "AirOps",
+      "openSourceOptions": [
+        "Flowise",
+        "LangChain",
+        "Dify"
+      ],
+      "bestStartingPoint": "Flowise for a visual builder; LangChain for code",
+      "limitation": "Dify's modified licence is source available, not strict open source",
+      "categories": [
+        "Agent & GTM Developer Tools"
+      ],
+      "sourceBasis": "Repository licence, description and official project documentation"
+    }
+  ],
+  "sources": [
+    {
+      "type": "Reference site",
+      "name": "Adam's GTM Report rankings",
+      "url": "https://adamgtm.com/rankings/",
+      "usedFor": "Reference information architecture, category cards, table controls and published methodology",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Comparable directory",
+      "name": "Open Source Alternatives",
+      "url": "https://www.opensourcealternatives.to/",
+      "usedFor": "Comparable open-source replacement directory",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Comparable directory",
+      "name": "Selfhost",
+      "url": "https://selfhosttools.com/",
+      "usedFor": "Comparable self-hosted software directory",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Comparable directory",
+      "name": "OSSBase",
+      "url": "https://www.ossbase.co/",
+      "usedFor": "Comparable project comparison and GitHub-data presentation",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Comparable directory",
+      "name": "OSSFind",
+      "url": "https://ossfind.com/",
+      "usedFor": "Comparable scoring approach using adoption, maintenance and commercial-use risk",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Dataset",
+      "name": "awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "usedFor": "Broad discovery source and category cross-check",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Cal.com",
+      "url": "https://github.com/calcom/cal.diy",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Umami",
+      "url": "https://github.com/umami-software/umami",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Excalidraw",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Strapi",
+      "url": "https://github.com/strapi/strapi",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Crawl4AI",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "LangChain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Payload",
+      "url": "https://github.com/payloadcms/payload",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "PostHog",
+      "url": "https://github.com/PostHog/posthog",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "ComfyUI",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Matomo",
+      "url": "https://github.com/matomo-org/matomo",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Penpot",
+      "url": "https://github.com/penpot/penpot",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Plausible Analytics",
+      "url": "https://github.com/plausible/analytics",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Mautic",
+      "url": "https://github.com/mautic/mautic",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Node-RED",
+      "url": "https://github.com/node-red/node-red",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Krayin CRM",
+      "url": "https://github.com/krayin/laravel-crm",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "CrewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "LlamaIndex",
+      "url": "https://github.com/run-llama/llama_index",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Slidev",
+      "url": "https://github.com/slidevjs/slidev",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Zammad",
+      "url": "https://github.com/zammad/zammad",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Formbricks",
+      "url": "https://github.com/formbricks/formbricks",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Crawlee",
+      "url": "https://github.com/apify/crawlee",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "SearXNG",
+      "url": "https://github.com/searxng/searxng",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "EspoCRM",
+      "url": "https://github.com/espocrm/espocrm",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Webstudio",
+      "url": "https://github.com/webstudio-is/webstudio",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "GrowthBook",
+      "url": "https://github.com/growthbook/growthbook",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Windmill",
+      "url": "https://github.com/windmill-labs/windmill",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "FreeScout",
+      "url": "https://github.com/freescout-help-desk/freescout",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "HeyForm",
+      "url": "https://github.com/heyform/heyform",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Easy!Appointments",
+      "url": "https://github.com/alextselegidis/easyappointments",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Meetily",
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Presenton",
+      "url": "https://github.com/presenton/presenton",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Corteza",
+      "url": "https://github.com/cortezaproject/corteza",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "OpenPanel",
+      "url": "https://github.com/Openpanel-dev/openpanel",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Plunk",
+      "url": "https://github.com/useplunk/plunk",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Jitsu",
+      "url": "https://github.com/jitsucom/jitsu",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Vexa",
+      "url": "https://github.com/Vexa-ai/vexa",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Snowplow",
+      "url": "https://github.com/snowplow/snowplow",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Atomic CRM",
+      "url": "https://github.com/marmelab/atomic-crm",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Meltano",
+      "url": "https://github.com/meltano/meltano",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "SuiteCRM",
+      "url": "https://github.com/SuiteCRM/SuiteCRM-Core",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Keila",
+      "url": "https://github.com/pentacent/keila",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Marp",
+      "url": "https://github.com/marp-team/marp",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Dittofeed",
+      "url": "https://github.com/dittofeed/dittofeed",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Automatisch",
+      "url": "https://github.com/automatisch/automatisch",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Dify",
+      "url": "https://github.com/langgenius/dify",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "Typebot",
+      "url": "https://github.com/baptisteArno/typebot.io",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    },
+    {
+      "type": "Project repository",
+      "name": "GEO/AEO Tracker",
+      "url": "https://github.com/danishashko/geo-aeo-tracker",
+      "usedFor": "Repository metadata, licence, description, activity and popularity",
+      "checked": "2026-07-20"
+    }
+  ]
+}

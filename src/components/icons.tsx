@@ -1,4 +1,7 @@
-import type { IconName } from "../data"
+export type IconName =
+  | "menu" | "close" | "github" | "arrow" | "shield" | "code" | "document"
+  | "unlock" | "users" | "crm" | "bars" | "workflow" | "chat" | "mail" | "wave"
+  | "sort" | "heart" | "clock" | "server" | "target" | "scale"
 
 export function Icon({ name, className }: { name: IconName; className?: string }) {
   return (

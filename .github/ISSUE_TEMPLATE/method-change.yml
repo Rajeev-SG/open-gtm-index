@@ -1,0 +1,30 @@
+name: Propose a scoring method change
+description: Suggest a precise change to a scoring rule, weight, threshold, or eligibility rule.
+title: "Method: "
+labels: ["method"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem with the current rule
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Exact proposed rule
+      description: Include a formula, weight, or threshold where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: effect
+    attributes:
+      label: Expected effect on existing projects
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Supporting evidence
+    validations:
+      required: true

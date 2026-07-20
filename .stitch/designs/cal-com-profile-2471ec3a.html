@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cal.com - Open GTM Index</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600;6..72,700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-container": "#e8ebff",
+                        "secondary": "#9c4400",
+                        "on-surface-variant": "#424655",
+                        "on-primary-fixed": "#00174a",
+                        "error": "#ba1a1a",
+                        "on-error": "#ffffff",
+                        "inverse-primary": "#b3c5ff",
+                        "surface-container": "#eeeee9",
+                        "surface": "#FBFAF6",
+                        "on-tertiary": "#ffffff",
+                        "surface-tint": "#0054d8",
+                        "surface-container-lowest": "#ffffff",
+                        "primary-fixed-dim": "#b3c5ff",
+                        "outline-variant": "#D4D1C8",
+                        "on-primary": "#ffffff",
+                        "tertiary-fixed": "#91f9a1",
+                        "on-background": "#171916",
+                        "on-tertiary-fixed": "#002109",
+                        "surface-variant": "#e3e3dd",
+                        "error-container": "#ffdad6",
+                        "on-secondary": "#ffffff",
+                        "on-primary-fixed-variant": "#003ea6",
+                        "secondary-container": "#ff7f2b",
+                        "on-tertiary-container": "#b1ffb9",
+                        "background": "#FBFAF6",
+                        "surface-container-low": "#f4f4ee",
+                        "outline": "#737687",
+                        "inverse-surface": "#2f312e",
+                        "tertiary": "#006027",
+                        "on-tertiary-fixed-variant": "#005321",
+                        "secondary-fixed-dim": "#ffb68f",
+                        "on-surface": "#171916",
+                        "surface-container-high": "#e8e8e3",
+                        "primary": "#075FF1",
+                        "tertiary-container": "#007c35",
+                        "surface-container-highest": "#e3e3dd",
+                        "tertiary-fixed-dim": "#75dc87",
+                        "primary-container": "#075ff1",
+                        "on-secondary-fixed-variant": "#773300",
+                        "secondary-fixed": "#ffdbca",
+                        "primary-fixed": "#dbe1ff",
+                        "surface-bright": "#FBFAF6",
+                        "inverse-on-surface": "#f1f1ec",
+                        "on-secondary-container": "#622800",
+                        "on-error-container": "#93000a",
+                        "on-secondary-fixed": "#331200",
+                        "surface-dim": "#dadad5",
+                        "accent-amber": "#D35F00",
+                        "success-green": "#17883E"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem",
+                        "flat": "6px",
+                        "chip": "2px"
+                    },
+                    "spacing": {
+                        "stack-xl": "40px",
+                        "stack-sm": "8px",
+                        "stack-lg": "24px",
+                        "margin-mobile": "16px",
+                        "stack-xs": "4px",
+                        "stack-md": "16px",
+                        "gutter-mobile": "16px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Newsreader"],
+                        "mono-score": ["Instrument Sans"],
+                        "headline-md": ["Newsreader"],
+                        "display-lg": ["Newsreader"],
+                        "label-md": ["Instrument Sans"],
+                        "label-sm": ["Instrument Sans"],
+                        "body-lg": ["Instrument Sans"],
+                        "headline-lg": ["Newsreader"],
+                        "body-md": ["Instrument Sans"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["28px", {"lineHeight": "34px", "fontWeight": "600"}],
+                        "mono-score": ["20px", {"lineHeight": "20px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["24px", {"lineHeight": "30px", "fontWeight": "500"}],
+                        "display-lg": ["40px", {"lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "label-sm": ["12px", {"lineHeight": "16px", "fontWeight": "500"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "headline-lg": ["32px", {"lineHeight": "38px", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "score-lg": ["64px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            background-color: theme('colors.surface');
+            color: theme('colors.on-surface');
+            font-family: 'Instrument Sans', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3, h4, h5, h6, .font-newsreader {
+            font-family: 'Newsreader', serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .flat-border {
+            border: 1px solid theme('colors.outline-variant');
+        }
+        .subtle-inset {
+            background-color: rgba(23, 25, 22, 0.02);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased">
+<!-- TopNavBar -->
+<header class="bg-surface border-b border-outline-variant w-full sticky top-0 z-50">
+<div class="flex justify-between items-center w-full px-margin-mobile md:px-stack-xl max-w-full mx-auto h-16 transition-all duration-200 ease-in-out">
+<div class="flex items-center gap-stack-lg">
+<a class="font-display-lg text-display-lg tracking-tighter text-on-surface" href="#">Open GTM Index</a>
+<nav class="hidden md:flex gap-stack-lg items-center mt-1">
+<a class="text-primary font-bold border-b-2 border-primary pb-1 font-label-md text-label-md uppercase" href="#">Rankings</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md uppercase" href="#">Replacements</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md uppercase" href="#">Methodology</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md uppercase" href="#">Watchlist</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md uppercase" href="#">Data</a>
+</nav>
+</div>
+<div class="flex items-center gap-stack-md">
+<div class="hidden md:flex items-center text-on-surface-variant border border-outline-variant rounded-flat px-3 py-1.5 hover:bg-surface-container-low transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-[18px] mr-2">search</span>
+<span class="font-label-sm text-label-sm">Search index...</span>
+</div>
+<a class="bg-primary-container text-on-primary border border-primary-container hover:bg-primary-fixed-variant px-4 py-2 rounded-flat font-label-md text-label-md uppercase transition-colors" href="#">GitHub</a>
+<button class="md:hidden text-on-surface-variant">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow w-full max-w-6xl mx-auto px-margin-mobile md:px-stack-xl py-stack-xl">
+<!-- Breadcrumb -->
+<nav class="flex text-on-surface-variant mb-stack-lg font-label-sm text-label-sm uppercase tracking-widest items-center gap-2">
+<a class="hover:text-primary transition-colors" href="#">Rankings</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" href="#">Forms, Surveys &amp; Conversion</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-on-surface">Cal.com</span>
+</nav>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-stack-xl">
+<!-- Left Column: Masthead & Core Details -->
+<div class="md:col-span-8 flex flex-col gap-stack-xl">
+<!-- Masthead -->
+<section class="flex flex-col md:flex-row gap-stack-lg items-start border-b border-outline-variant pb-stack-xl">
+<div class="w-24 h-24 bg-on-surface text-surface flex items-center justify-center font-display-lg text-[64px] rounded-flat shrink-0 flat-border">C</div>
+<div class="flex-grow">
+<div class="flex items-center gap-3 mb-2">
+<h1 class="font-display-lg text-display-lg text-on-surface">Cal.com</h1>
+<div class="flex items-center gap-1 bg-surface-container-low px-2 py-1 rounded-chip border border-outline-variant">
+<span class="material-symbols-outlined text-[16px] text-success-green" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Ranked · permissive open source</span>
+</div>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface mb-4">Scheduling infrastructure for absolutely everyone.</p>
+<div class="flex flex-wrap gap-2">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant border border-outline-variant px-2 py-1 rounded-chip">Scheduling</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant border border-outline-variant px-2 py-1 rounded-chip">Routing</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant border border-outline-variant px-2 py-1 rounded-chip">Infrastructure</span>
+</div>
+</div>
+</section>
+<!-- Summary Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-px bg-outline-variant border border-outline-variant rounded-flat overflow-hidden">
+<div class="bg-surface p-stack-md flex flex-col gap-2">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-widest">Assessment Summary</span>
+<p class="font-body-md text-body-md">Scheduling platform with routing and integrations.</p>
+</div>
+<div class="bg-surface p-stack-md flex flex-col gap-2">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-widest">Replaces</span>
+<p class="font-body-md text-body-md">Calendly; Chili Piper.</p>
+</div>
+<div class="bg-surface p-stack-md flex flex-col gap-2">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-widest">Recommendation</span>
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-success-green"></span>
+<span class="font-body-md text-body-md">Strong shortlist.</span>
+</div>
+</div>
+<div class="bg-surface p-stack-md flex flex-col gap-2">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant tracking-widest">Maturity Phase</span>
+<p class="font-body-md text-body-md">Established.</p>
+</div>
+</section>
+<!-- Score Breakdown -->
+<section>
+<h2 class="font-headline-md text-headline-md mb-stack-md border-b border-outline-variant pb-2">Index Methodology Breakdown</h2>
+<div class="flex flex-col border border-outline-variant rounded-flat overflow-hidden">
+<!-- Row 1 -->
+<div class="flex flex-col md:flex-row border-b border-outline-variant last:border-0 bg-surface hover:bg-surface-container-low transition-colors">
+<div class="md:w-1/3 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant subtle-inset">
+<span class="font-label-md text-label-md uppercase block mb-1">Adoption</span>
+<span class="font-body-sm text-on-surface-variant">Logarithmic scale</span>
+</div>
+<div class="md:w-1/6 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant flex items-center justify-end font-mono-score text-mono-score text-accent-amber bg-white">
+                                22.6 / 25
+                            </div>
+<div class="md:w-1/2 p-stack-md flex items-center">
+<span class="font-body-md text-body-md">Driven by 46,636 GitHub stars and extensive fork network. Indicates massive developer attention.</span>
+</div>
+</div>
+<!-- Row 2 -->
+<div class="flex flex-col md:flex-row border-b border-outline-variant last:border-0 bg-surface hover:bg-surface-container-low transition-colors">
+<div class="md:w-1/3 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant subtle-inset">
+<span class="font-label-md text-label-md uppercase block mb-1">Community</span>
+<span class="font-body-sm text-on-surface-variant">Contributor health</span>
+</div>
+<div class="md:w-1/6 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant flex items-center justify-end font-mono-score text-mono-score text-accent-amber bg-white">
+                                14.2 / 15
+                            </div>
+<div class="md:w-1/2 p-stack-md flex items-center">
+<span class="font-body-md text-body-md">Highly active core team with broad external contributor base and active issue resolution.</span>
+</div>
+</div>
+<!-- Row 3 -->
+<div class="flex flex-col md:flex-row border-b border-outline-variant last:border-0 bg-surface hover:bg-surface-container-low transition-colors">
+<div class="md:w-1/3 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant subtle-inset">
+<span class="font-label-md text-label-md uppercase block mb-1">Recent activity</span>
+<span class="font-body-sm text-on-surface-variant">Commit velocity</span>
+</div>
+<div class="md:w-1/6 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant flex items-center justify-end font-mono-score text-mono-score text-accent-amber bg-white">
+                                18.0 / 20
+                            </div>
+<div class="md:w-1/2 p-stack-md flex items-center">
+<span class="font-body-md text-body-md">Consistent daily commits and release cycles over the trailing 90-day period.</span>
+</div>
+</div>
+<!-- Row 4 -->
+<div class="flex flex-col md:flex-row border-b border-outline-variant last:border-0 bg-surface hover:bg-surface-container-low transition-colors">
+<div class="md:w-1/3 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant subtle-inset">
+<span class="font-label-md text-label-md uppercase block mb-1">Deployment readiness</span>
+<span class="font-body-sm text-on-surface-variant">Infrastructure ease</span>
+</div>
+<div class="md:w-1/6 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant flex items-center justify-end font-mono-score text-mono-score text-accent-amber bg-white">
+                                14.0 / 15
+                            </div>
+<div class="md:w-1/2 p-stack-md flex items-center">
+<span class="font-body-md text-body-md">Dockerized deployments, Vercel integration, and clear self-hosting documentation.</span>
+</div>
+</div>
+<!-- Row 5 -->
+<div class="flex flex-col md:flex-row border-b border-outline-variant last:border-0 bg-surface hover:bg-surface-container-low transition-colors">
+<div class="md:w-1/3 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant subtle-inset">
+<span class="font-label-md text-label-md uppercase block mb-1">Go-to-market fit</span>
+<span class="font-body-sm text-on-surface-variant">Feature parity</span>
+</div>
+<div class="md:w-1/6 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant flex items-center justify-end font-mono-score text-mono-score text-accent-amber bg-white">
+                                15.0 / 15
+                            </div>
+<div class="md:w-1/2 p-stack-md flex items-center">
+<span class="font-body-md text-body-md">Meets or exceeds feature set of incumbent proprietary market leaders (Calendly).</span>
+</div>
+</div>
+<!-- Row 6 -->
+<div class="flex flex-col md:flex-row border-b border-outline-variant last:border-0 bg-surface hover:bg-surface-container-low transition-colors">
+<div class="md:w-1/3 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant subtle-inset">
+<span class="font-label-md text-label-md uppercase block mb-1">Licence openness</span>
+<span class="font-body-sm text-on-surface-variant">OSI compliance</span>
+</div>
+<div class="md:w-1/6 p-stack-md border-b md:border-b-0 md:border-r border-outline-variant flex items-center justify-end font-mono-score text-mono-score text-accent-amber bg-white">
+                                10.0 / 10
+                            </div>
+<div class="md:w-1/2 p-stack-md flex items-center">
+<span class="font-body-md text-body-md">Permissive MIT License allows unrestricted commercial use and modification.</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Scorecard & Meta -->
+<div class="md:col-span-4 flex flex-col gap-stack-xl">
+<!-- Scorecard Component -->
+<div class="border border-outline-variant rounded-flat p-stack-lg bg-surface flex flex-col items-center justify-center text-center relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-1 bg-accent-amber"></div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-on-surface-variant mb-2">Composite Score</span>
+<span class="font-newsreader text-[72px] leading-none text-accent-amber font-semibold mb-4">93.8</span>
+<div class="flex flex-col gap-2 w-full">
+<div class="flex justify-between items-center border-t border-outline-variant pt-2">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Overall Rank</span>
+<span class="font-mono-score text-mono-score text-on-surface">#1</span>
+</div>
+<div class="flex justify-between items-center border-t border-outline-variant pt-2">
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant text-left">Forms, Surveys &amp; Conversion</span>
+<span class="font-mono-score text-mono-score text-on-surface shrink-0 ml-2">#1</span>
+</div>
+</div>
+</div>
+<!-- Evidence Register -->
+<div>
+<h3 class="font-label-md text-label-md uppercase tracking-widest border-b border-outline-variant pb-2 mb-2">Evidence Register</h3>
+<ul class="flex flex-col text-body-sm border-b border-outline-variant">
+<li class="flex py-2 border-t border-outline-variant">
+<span class="w-1/3 text-on-surface-variant">Repository</span>
+<a class="w-2/3 text-primary hover:underline truncate" href="#">github.com/calcom/cal.com</a>
+</li>
+<li class="flex py-2 border-t border-outline-variant">
+<span class="w-1/3 text-on-surface-variant">Website</span>
+<a class="w-2/3 text-primary hover:underline truncate" href="#">cal.com</a>
+</li>
+<li class="flex py-2 border-t border-outline-variant">
+<span class="w-1/3 text-on-surface-variant">Licence</span>
+<span class="w-2/3 text-on-surface font-mono-score text-sm">MIT</span>
+</li>
+</ul>
+</div>
+<!-- Repository Facts -->
+<div class="subtle-inset border border-outline-variant rounded-flat p-stack-md">
+<h3 class="font-label-md text-label-md uppercase tracking-widest border-b border-outline-variant pb-2 mb-3">Repository Facts</h3>
+<div class="grid grid-cols-2 gap-y-4 mb-4">
+<div>
+<span class="block font-mono-score text-mono-score text-on-surface">46,636</span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Stars</span>
+</div>
+<div>
+<span class="block font-mono-score text-mono-score text-on-surface">14,496</span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Forks</span>
+</div>
+<div class="col-span-2">
+<span class="block font-mono-score text-mono-score text-on-surface">1,355</span>
+<span class="font-label-sm text-label-sm uppercase text-on-surface-variant">Open Issues</span>
+</div>
+</div>
+<div class="bg-surface-container-high border border-outline-variant p-2 rounded-chip flex gap-2 items-start">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant mt-0.5">info</span>
+<p class="text-xs font-body-md leading-tight text-on-surface-variant">Stars indicate developer attention, not installations, market share or revenue.</p>
+</div>
+</div>
+<!-- Related Tools -->
+<div>
+<h3 class="font-label-md text-label-md uppercase tracking-widest border-b border-outline-variant pb-2 mb-2">Related Tools</h3>
+<ul class="flex flex-col text-body-sm border-b border-outline-variant">
+<li class="py-2 border-t border-outline-variant flex items-center justify-between">
+<a class="text-on-surface hover:text-primary transition-colors font-medium" href="#">Formbricks</a>
+<span class="material-symbols-outlined text-[16px] text-outline">arrow_forward</span>
+</li>
+<li class="py-2 border-t border-outline-variant flex items-center justify-between">
+<a class="text-on-surface hover:text-primary transition-colors font-medium" href="#">HeyForm</a>
+<span class="material-symbols-outlined text-[16px] text-outline">arrow_forward</span>
+</li>
+<li class="py-2 border-t border-outline-variant flex items-center justify-between">
+<a class="text-on-surface hover:text-primary transition-colors font-medium" href="#">Easy!Appointments</a>
+<span class="material-symbols-outlined text-[16px] text-outline">arrow_forward</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container border-t border-outline-variant mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center w-full py-stack-lg px-margin-mobile md:px-stack-xl max-w-6xl mx-auto transition-opacity duration-150">
+<div class="mb-4 md:mb-0">
+<span class="font-headline-md text-headline-md text-on-surface">Open GTM Index</span>
+<p class="font-label-sm text-label-sm text-on-surface-variant mt-1">© 2026 Open GTM Index. All rights reserved.</p>
+</div>
+<nav class="flex flex-wrap gap-stack-md justify-center">
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary underline transition-colors" href="#">Dataset</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary underline transition-colors" href="#">Methodology</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary underline transition-colors" href="#">Change log</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary underline transition-colors" href="#">Contribute</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant hover:text-primary underline transition-colors" href="#">GitHub</a>
+</nav>
+</div>
+</footer>
+</body></html>
