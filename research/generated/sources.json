@@ -1,0 +1,415 @@
+[
+  {
+    "type": "Reference site",
+    "name": "Adam's GTM Report rankings",
+    "url": "https://adamgtm.com/rankings/",
+    "usedFor": "Reference information architecture, category cards, table controls and published methodology",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Comparable directory",
+    "name": "Open Source Alternatives",
+    "url": "https://www.opensourcealternatives.to/",
+    "usedFor": "Comparable open-source replacement directory",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Comparable directory",
+    "name": "Selfhost",
+    "url": "https://selfhosttools.com/",
+    "usedFor": "Comparable self-hosted software directory",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Comparable directory",
+    "name": "OSSBase",
+    "url": "https://www.ossbase.co/",
+    "usedFor": "Comparable project comparison and GitHub-data presentation",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Comparable directory",
+    "name": "OSSFind",
+    "url": "https://ossfind.com/",
+    "usedFor": "Comparable scoring approach using adoption, maintenance and commercial-use risk",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Dataset",
+    "name": "awesome-selfhosted",
+    "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "usedFor": "Broad discovery source and category cross-check",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Cal.com",
+    "url": "https://github.com/calcom/cal.diy",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Chatwoot",
+    "url": "https://github.com/chatwoot/chatwoot",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Umami",
+    "url": "https://github.com/umami-software/umami",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Excalidraw",
+    "url": "https://github.com/excalidraw/excalidraw",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Strapi",
+    "url": "https://github.com/strapi/strapi",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Twenty",
+    "url": "https://github.com/twentyhq/twenty",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Crawl4AI",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "LangChain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Payload",
+    "url": "https://github.com/payloadcms/payload",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "listmonk",
+    "url": "https://github.com/knadh/listmonk",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "PostHog",
+    "url": "https://github.com/PostHog/posthog",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "ComfyUI",
+    "url": "https://github.com/Comfy-Org/ComfyUI",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Matomo",
+    "url": "https://github.com/matomo-org/matomo",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Activepieces",
+    "url": "https://github.com/activepieces/activepieces",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Penpot",
+    "url": "https://github.com/penpot/penpot",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Plausible Analytics",
+    "url": "https://github.com/plausible/analytics",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Mautic",
+    "url": "https://github.com/mautic/mautic",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Node-RED",
+    "url": "https://github.com/node-red/node-red",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Krayin CRM",
+    "url": "https://github.com/krayin/laravel-crm",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "CrewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "LlamaIndex",
+    "url": "https://github.com/run-llama/llama_index",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Slidev",
+    "url": "https://github.com/slidevjs/slidev",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Zammad",
+    "url": "https://github.com/zammad/zammad",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Formbricks",
+    "url": "https://github.com/formbricks/formbricks",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Crawlee",
+    "url": "https://github.com/apify/crawlee",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "SearXNG",
+    "url": "https://github.com/searxng/searxng",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "EspoCRM",
+    "url": "https://github.com/espocrm/espocrm",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Webstudio",
+    "url": "https://github.com/webstudio-is/webstudio",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "GrowthBook",
+    "url": "https://github.com/growthbook/growthbook",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Windmill",
+    "url": "https://github.com/windmill-labs/windmill",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Langfuse",
+    "url": "https://github.com/langfuse/langfuse",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "FreeScout",
+    "url": "https://github.com/freescout-help-desk/freescout",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "HeyForm",
+    "url": "https://github.com/heyform/heyform",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Easy!Appointments",
+    "url": "https://github.com/alextselegidis/easyappointments",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Meetily",
+    "url": "https://github.com/Zackriya-Solutions/meetily",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Presenton",
+    "url": "https://github.com/presenton/presenton",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Corteza",
+    "url": "https://github.com/cortezaproject/corteza",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "OpenPanel",
+    "url": "https://github.com/Openpanel-dev/openpanel",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Plunk",
+    "url": "https://github.com/useplunk/plunk",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Jitsu",
+    "url": "https://github.com/jitsucom/jitsu",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Vexa",
+    "url": "https://github.com/Vexa-ai/vexa",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Snowplow",
+    "url": "https://github.com/snowplow/snowplow",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Atomic CRM",
+    "url": "https://github.com/marmelab/atomic-crm",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Meltano",
+    "url": "https://github.com/meltano/meltano",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "SuiteCRM",
+    "url": "https://github.com/SuiteCRM/SuiteCRM-Core",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Keila",
+    "url": "https://github.com/pentacent/keila",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Marp",
+    "url": "https://github.com/marp-team/marp",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Dittofeed",
+    "url": "https://github.com/dittofeed/dittofeed",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Automatisch",
+    "url": "https://github.com/automatisch/automatisch",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Dify",
+    "url": "https://github.com/langgenius/dify",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "Typebot",
+    "url": "https://github.com/baptisteArno/typebot.io",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  },
+  {
+    "type": "Project repository",
+    "name": "GEO/AEO Tracker",
+    "url": "https://github.com/danishashko/geo-aeo-tracker",
+    "usedFor": "Repository metadata, licence, description, activity and popularity",
+    "checked": "2026-07-20"
+  }
+]

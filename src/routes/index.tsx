@@ -1,198 +1,82 @@
-import { createFileRoute } from "@tanstack/react-router"
-import { useEffect, useMemo, useState } from "react"
+import { Link, createFileRoute } from "@tanstack/react-router"
 
-import { Icon, IconSprite } from "../components/icons"
-import { categoryLeaders, rankingRows, scoreFactors, type RankingRow } from "../data"
+import { AppShell } from "../components/AppShell"
+import { Icon } from "../components/icons"
+import { ToolMark } from "../components/ToolMark"
+import { categories, formatDate, formatNumber, rankedTools } from "../data"
 
 export const Route = createFileRoute("/")({ component: IndexPage })
 
-type SortKey = "rank" | "tool" | "category" | "score" | "stars" | "licence" | "replaces"
-
-const evidenceItems = [
-  { icon: "code" as const, title: "100% open data", text: "All inputs and sources are public." },
-  { icon: "document" as const, title: "Evidence-backed", text: "Scores are based on an open scoring model." },
-  { icon: "unlock" as const, title: "Verified open-source", text: "Only OSI-approved licences are ranked.", verified: true },
-  { icon: "users" as const, title: "Community governed", text: "Pull requests and issues welcome." },
+const principles = [
+  { icon: "code" as const, title: "Open data", copy: "Every published field is available as JSON and CSV." },
+  { icon: "document" as const, title: "Evidence attached", copy: "Each project has repository facts and editorial review notes." },
+  { icon: "unlock" as const, title: "Licence gate", copy: "Only verified open-source projects receive a rank." },
+  { icon: "users" as const, title: "Public corrections", copy: "Changes happen through visible issues and pull requests." },
 ]
 
 function IndexPage() {
-  const [menuOpen, setMenuOpen] = useState(false)
-  const [sort, setSort] = useState<{ key: SortKey; direction: "asc" | "desc" }>({
-    key: "rank",
-    direction: "asc",
-  })
-
-  useEffect(() => {
-    document.body.toggleAttribute("data-menu-open", menuOpen)
-    return () => document.body.removeAttribute("data-menu-open")
-  }, [menuOpen])
-
-  const rows = useMemo(() => {
-    return [...rankingRows].sort((left, right) => {
-      const a = left[sort.key]
-      const b = right[sort.key]
-      const comparison =
-        typeof a === "number" && typeof b === "number"
-          ? a - b
-          : String(a).localeCompare(String(b), undefined, { sensitivity: "base" })
-      return sort.direction === "asc" ? comparison : -comparison
-    })
-  }, [sort])
-
-  function changeSort(key: SortKey) {
-    setSort((current) => ({
-      key,
-      direction: current.key === key && current.direction === "asc" ? "desc" : "asc",
-    }))
-  }
-
-  function closeMenu() {
-    setMenuOpen(false)
-  }
+  const topTools = rankedTools.slice(0, 8)
+  const featured = categories.filter((category) => category.leaderScore !== null).sort((a, b) => (b.leaderScore ?? 0) - (a.leaderScore ?? 0)).slice(0, 6)
 
   return (
-    <>
-      <IconSprite />
-      <header className="site-header">
-        <a className="brand" href="#top" aria-label="Open GTM Index home" onClick={closeMenu}>
-          <BrandMark />
-          <span>Open GTM Index</span>
-        </a>
-        <button
-          className="menu-button"
-          type="button"
-          aria-expanded={menuOpen}
-          aria-controls="site-nav"
-          onClick={() => setMenuOpen((open) => !open)}
-        >
-          <span className="sr-only">{menuOpen ? "Close navigation" : "Open navigation"}</span>
-          <Icon name="menu" className="menu-open" />
-          <Icon name="close" className="menu-close" />
-        </button>
-        <nav className="site-nav" id="site-nav" aria-label="Primary navigation" data-open={menuOpen || undefined}>
-          <a href="#rankings" onClick={closeMenu}>Rankings</a>
-          <a href="#category-leaders" onClick={closeMenu}>Replacements</a>
-          <a href="#method" onClick={closeMenu}>Scoring method</a>
-          <a href="https://github.com/Rajeev-SG/open-gtm-index/issues" onClick={closeMenu}>Contribute</a>
-          <a className="github-link" href="https://github.com/Rajeev-SG/open-gtm-index" rel="noreferrer">
-            <Icon name="github" />
-            GitHub
-          </a>
-        </nav>
-      </header>
-
-      <main id="top">
-        <section className="hero" aria-labelledby="page-title">
+    <AppShell>
+      <main id="main">
+        <section className="hero">
           <div className="hero-inner">
-            <h1 id="page-title">Ranked tools you can<br />inspect, self-host, and improve.</h1>
+            <p className="eyebrow">Independent public research · Method 1.0</p>
+            <h1>Ranked tools you can<br className="desktop-only" /> inspect, self-host, and improve.</h1>
             <p className="research-summary">
-              <span>53 projects reviewed</span><b>·</b><span>50 ranked</span><b>·</b><span>13 categories</span><b>·</b><span>checked 20 July 2026</span>
+              <span>53 projects reviewed</span><b>·</b><span>50 ranked</span><b>·</b><span>13 categories</span><b>·</b><span>checked {formatDate("2026-07-20")}</span>
             </p>
             <div className="hero-actions">
-              <a className="button button-primary" href="#rankings">Explore the rankings</a>
-              <a className="button button-link" href="#method">Read the scoring method <Icon name="arrow" /></a>
+              <Link className="button primary" to="/rankings">Explore all rankings</Link>
+              <Link className="button text" to="/methodology">Read the scoring method <Icon name="arrow" /></Link>
             </div>
-            <p className="trust-note">
-              <Icon name="shield" />
-              <span>Every score input and source is public. Projects with restricted or unclear<br className="desktop-only" /> licences are visible but not ranked.</span>
-            </p>
+            <p className="trust-note"><Icon name="shield" /><span>Every score input and source is public. Projects with restricted or unclear licences remain visible on the watchlist but are not ranked.</span></p>
           </div>
         </section>
 
-        <section className="principles" aria-label="Open data principles">
-          {evidenceItems.map((item) => (
-            <article className={`principle${item.verified ? " principle-verified" : ""}`} key={item.title}>
-              <Icon name={item.icon} />
-              <div><h2>{item.title}</h2><p>{item.text}</p></div>
-            </article>
-          ))}
+        <section className="principles" aria-label="Publication principles">
+          {principles.map((item) => <article className="principle" key={item.title}><Icon name={item.icon} /><div><h2>{item.title}</h2><p>{item.copy}</p></div></article>)}
         </section>
 
-        <section className="research-board" id="category-leaders" aria-labelledby="leaders-title">
-          <h2 className="sr-only" id="leaders-title">Category leaders</h2>
+        <section className="section-block">
+          <div className="section-heading"><div><p className="eyebrow">Category leaders</p><h2>Strong starting points, by job</h2></div><Link to="/rankings">Compare all 50 <Icon name="arrow" /></Link></div>
           <div className="leader-grid">
-            {categoryLeaders.map((item) => (
-              <article className="leader-card" key={item.category}>
-                <div className="leader-heading">
-                  <span className="leader-icon"><Icon name={item.icon} /></span>
-                  <h3>{item.category}</h3>
-                </div>
-                <p className="leader-name">#1&nbsp; {item.leader}</p>
-                <p className="leader-score">{item.score.toFixed(1)}</p>
-              </article>
+            {featured.map((category) => (
+              <Link className="leader-card" to="/categories/$slug" params={{ slug: category.slug }} key={category.slug}>
+                <span className="card-kicker">{category.marketState}</span>
+                <h3>{category.name}</h3>
+                <p><span>#1 {category.leader}</span><strong>{category.leaderScore?.toFixed(1)}</strong></p>
+              </Link>
             ))}
           </div>
+        </section>
 
-          <div className="ranking-layout" id="rankings">
-            <section className="rankings-panel" aria-labelledby="rankings-title">
-              <h2 className="sr-only" id="rankings-title">Top-ranked projects</h2>
-              <div className="table-wrap">
-                <table>
-                  <thead>
-                    <tr>
-                      {(["rank", "tool", "category", "score", "stars", "licence", "replaces"] as SortKey[]).map((key) => (
-                        <th scope="col" key={key} aria-sort={sort.key === key ? (sort.direction === "asc" ? "ascending" : "descending") : undefined}>
-                          <button type="button" data-sort={key} onClick={() => changeSort(key)}>
-                            {key[0].toUpperCase() + key.slice(1)} <Icon name="sort" />
-                          </button>
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>{rows.map((row) => <RankingTableRow row={row} key={row.tool} />)}</tbody>
-                </table>
-              </div>
-            </section>
+        <section className="section-block ranking-preview">
+          <div className="section-heading"><div><p className="eyebrow">Overall ranking</p><h2>The leading projects in this snapshot</h2></div><p>Score out of 100</p></div>
+          <div className="preview-table" role="table" aria-label="Top ranked open source go-to-market tools">
+            {topTools.map((tool) => (
+              <Link className="preview-row" role="row" to="/tools/$slug" params={{ slug: tool.slug }} key={tool.slug}>
+                <span className="rank-number" role="cell">{tool.rank}</span><ToolMark name={tool.name} />
+                <span className="preview-name" role="cell"><strong>{tool.name}</strong><small>{tool.category}</small></span>
+                <span className="preview-licence" role="cell">{tool.licence}</span>
+                <span className="preview-stars" role="cell">{formatNumber(tool.stars)} stars</span>
+                <strong className="preview-score" role="cell">{tool.score.toFixed(1)}</strong>
+                <Icon name="arrow" />
+              </Link>
+            ))}
+          </div>
+          <div className="section-cta"><Link className="button secondary" to="/rankings">View the complete ranking</Link><Link className="button text" to="/watchlist">See projects that are not ranked <Icon name="arrow" /></Link></div>
+        </section>
 
-            <aside className="score-panel" id="method" aria-labelledby="method-title">
-              <h2 id="method-title">How the score works</h2>
-              <div className="score-factors">
-                {scoreFactors.flatMap((factor, index) => [
-                  ...(index > 0
-                    ? [<i aria-hidden="true" key={`${factor.label}-separator`}>·</i>]
-                    : []),
-                  <span className="score-factor" key={factor.label}>
-                    <Icon name={factor.icon} /><span>{factor.label}</span><strong>{factor.weight}</strong>
-                  </span>,
-                ])}
-              </div>
-            </aside>
+        <section className="method-callout">
+          <div><p className="eyebrow">A score you can reproduce</p><h2>Six inputs. One public method.</h2><p>Repository signals contribute 60 points. Deployment readiness, practical fit, and licence clarity contribute 40. Every weight, threshold, and limitation is published.</p><Link className="button primary" to="/methodology">Examine the method</Link></div>
+          <div className="weight-grid" aria-label="Scoring weights">
+            {[['Adoption',25],['Community',15],['Recent activity',20],['Deployment',15],['GTM fit',15],['Licence',10]].map(([label, value]) => <div key={label}><strong>{value}</strong><span>{label}</span></div>)}
           </div>
         </section>
       </main>
-
-      <footer className="site-footer" id="contribute">
-        <p>Open data for clearer software decisions.</p>
-        <a href="https://github.com/Rajeev-SG/open-gtm-index/issues/new">Suggest a project</a>
-      </footer>
-    </>
+    </AppShell>
   )
-}
-
-function BrandMark() {
-  return <span className="brand-mark" aria-hidden="true"><i /><i /><i /><i /></span>
-}
-
-function RankingTableRow({ row }: { row: RankingRow }) {
-  return (
-    <tr>
-      <td data-label="Rank">{row.rank}</td>
-      <td data-label="Tool">
-        <a className="tool-link" href={`https://github.com/${row.tool === "Cal.com" ? "calcom/cal.com" : row.tool === "Chatwoot" ? "chatwoot/chatwoot" : "umami-software/umami"}`}>
-          <ToolLogo type={row.logo} />{row.tool}
-        </a>
-      </td>
-      <td data-label="Category">{row.category}</td>
-      <td className="score-cell" data-label="Score">{row.score.toFixed(1)}</td>
-      <td data-label="Stars">{row.stars.toLocaleString("en-GB")}</td>
-      <td data-label="Licence"><span className="licence-tag">{row.licence}</span></td>
-      <td data-label="Replaces">{row.replaces}</td>
-    </tr>
-  )
-}
-
-function ToolLogo({ type }: { type: RankingRow["logo"] }) {
-  if (type === "cal") return <span className="tool-logo cal-logo">C</span>
-  if (type === "chatwoot") return <span className="tool-logo chatwoot-logo" />
-  return <span className="tool-logo umami-logo"><i /><i /><i /></span>
 }

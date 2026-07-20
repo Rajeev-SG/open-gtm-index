@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "ai-answer-visibility",
+    "name": "AI Answer Visibility",
+    "eligibleTools": 0,
+    "leader": "No ranked project",
+    "leaderScore": null,
+    "leaderStars": null,
+    "averageScore": null,
+    "marketState": "Early",
+    "description": "Only one researched project, and its licence is not yet clear; keep this category visibly experimental."
+  },
+  {
+    "slug": "agent-and-gtm-developer-tools",
+    "name": "Agent & GTM Developer Tools",
+    "eligibleTools": 5,
+    "leader": "LangChain",
+    "leaderScore": 90.8,
+    "leaderStars": 142171,
+    "averageScore": 87.9,
+    "marketState": "Established choices",
+    "description": "5 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "analytics-and-experimentation",
+    "name": "Analytics & Experimentation",
+    "eligibleTools": 6,
+    "leader": "Umami",
+    "leaderScore": 93.3,
+    "leaderStars": 37768,
+    "averageScore": 87.9,
+    "marketState": "Established choices",
+    "description": "6 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "crm-and-revenue-operations",
+    "name": "CRM & Revenue Operations",
+    "eligibleTools": 6,
+    "leader": "Twenty",
+    "leaderScore": 92.1,
+    "leaderStars": 53330,
+    "averageScore": 83.6,
+    "marketState": "Established choices",
+    "description": "6 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "conversation-intelligence",
+    "name": "Conversation Intelligence",
+    "eligibleTools": 2,
+    "leader": "Meetily",
+    "leaderScore": 82.9,
+    "leaderStars": 25753,
+    "averageScore": 81.6,
+    "marketState": "Developing",
+    "description": "2 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "creative-and-content",
+    "name": "Creative & Content",
+    "eligibleTools": 6,
+    "leader": "Excalidraw",
+    "leaderScore": 92.9,
+    "leaderStars": 127938,
+    "averageScore": 86,
+    "marketState": "Established choices",
+    "description": "6 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "customer-data-and-activation",
+    "name": "Customer Data & Activation",
+    "eligibleTools": 3,
+    "leader": "Jitsu",
+    "leaderScore": 80.5,
+    "leaderStars": 4812,
+    "averageScore": 79.1,
+    "marketState": "Developing",
+    "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "customer-support-and-success",
+    "name": "Customer Support & Success",
+    "eligibleTools": 3,
+    "leader": "Chatwoot",
+    "leaderScore": 93.3,
+    "leaderStars": 34579,
+    "averageScore": 88,
+    "marketState": "Developing",
+    "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "forms-surveys-and-conversion",
+    "name": "Forms, Surveys & Conversion",
+    "eligibleTools": 4,
+    "leader": "Cal.com",
+    "leaderScore": 93.8,
+    "leaderStars": 46636,
+    "averageScore": 86.8,
+    "marketState": "Established choices",
+    "description": "4 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "marketing-automation-and-email",
+    "name": "Marketing Automation & Email",
+    "eligibleTools": 5,
+    "leader": "listmonk",
+    "leaderScore": 90.6,
+    "leaderStars": 22294,
+    "averageScore": 81.8,
+    "marketState": "Established choices",
+    "description": "5 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "prospecting-and-web-data",
+    "name": "Prospecting & Web Data",
+    "eligibleTools": 3,
+    "leader": "Crawl4AI",
+    "leaderScore": 91.7,
+    "leaderStars": 73401,
+    "averageScore": 87.9,
+    "marketState": "Developing",
+    "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "website-and-content",
+    "name": "Website & Content",
+    "eligibleTools": 3,
+    "leader": "Strapi",
+    "leaderScore": 92.1,
+    "leaderStars": 72689,
+    "averageScore": 89.2,
+    "marketState": "Developing",
+    "description": "3 eligible projects; compare deployment effort and licence duties before choosing."
+  },
+  {
+    "slug": "workflow-automation",
+    "name": "Workflow Automation",
+    "eligibleTools": 4,
+    "leader": "Activepieces",
+    "leaderScore": 89.4,
+    "leaderStars": 23343,
+    "averageScore": 84,
+    "marketState": "Established choices",
+    "description": "4 eligible projects; compare deployment effort and licence duties before choosing."
+  }
+]

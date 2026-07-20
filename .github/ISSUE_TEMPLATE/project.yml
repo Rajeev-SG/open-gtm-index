@@ -1,0 +1,45 @@
+name: Suggest a project
+description: Add an open-source sales, marketing, support, customer, or revenue project for review.
+title: "Project: "
+labels: ["research", "project suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: repository
+    attributes:
+      label: Public repository
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official website
+    validations:
+      required: true
+  - type: textarea
+    id: job
+    attributes:
+      label: What work does it support?
+      description: Describe the sales, marketing, support, customer, or revenue work in plain language.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Licence and self-hosting evidence
+      description: Link to the licence file and self-hosting documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship disclosure
+      description: State any employment, investment, or commercial relationship, or write “None”.
+    validations:
+      required: true

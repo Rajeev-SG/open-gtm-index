@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "salesforce",
+    "commercialProduct": "Salesforce",
+    "openSourceOptions": [
+      "Twenty",
+      "EspoCRM",
+      "SuiteCRM",
+      "Corteza"
+    ],
+    "bestStartingPoint": "Twenty for a modern interface; EspoCRM or SuiteCRM for established CRM depth",
+    "limitation": "Migration, email integration and reporting still require testing",
+    "categories": [
+      "CRM & Revenue Operations"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "hubspot",
+    "commercialProduct": "HubSpot",
+    "openSourceOptions": [
+      "Twenty",
+      "EspoCRM",
+      "Krayin CRM",
+      "Mautic"
+    ],
+    "bestStartingPoint": "Combine a CRM with Mautic when both sales and marketing automation are required",
+    "limitation": "No single project matches every HubSpot hub",
+    "categories": [
+      "CRM & Revenue Operations",
+      "Marketing Automation & Email"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "attio",
+    "commercialProduct": "Attio",
+    "openSourceOptions": [
+      "Twenty",
+      "Atomic CRM"
+    ],
+    "bestStartingPoint": "Twenty",
+    "limitation": "Atomic CRM is a toolkit and needs more product work",
+    "categories": [
+      "CRM & Revenue Operations"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "pipedrive",
+    "commercialProduct": "Pipedrive",
+    "openSourceOptions": [
+      "Twenty",
+      "Atomic CRM",
+      "Krayin CRM"
+    ],
+    "bestStartingPoint": "Krayin CRM or Twenty",
+    "limitation": "Check email and forecasting requirements",
+    "categories": [
+      "CRM & Revenue Operations"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "marketo",
+    "commercialProduct": "Marketo",
+    "openSourceOptions": [
+      "Mautic"
+    ],
+    "bestStartingPoint": "Mautic",
+    "limitation": "Operating email delivery and deliverability remains your responsibility",
+    "categories": [
+      "Marketing Automation & Email"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "mailchimp",
+    "commercialProduct": "Mailchimp",
+    "openSourceOptions": [
+      "listmonk",
+      "Keila"
+    ],
+    "bestStartingPoint": "listmonk for high-volume lists; Keila for a simpler newsletter workflow",
+    "limitation": "You must provide and monitor an email delivery provider",
+    "categories": [
+      "Marketing Automation & Email"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "customer-io",
+    "commercialProduct": "Customer.io",
+    "openSourceOptions": [
+      "Dittofeed",
+      "Plunk"
+    ],
+    "bestStartingPoint": "Dittofeed",
+    "limitation": "Confirm channel support and data model before migration",
+    "categories": [
+      "Marketing Automation & Email"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "intercom",
+    "commercialProduct": "Intercom",
+    "openSourceOptions": [
+      "Chatwoot",
+      "Typebot"
+    ],
+    "bestStartingPoint": "Chatwoot",
+    "limitation": "Typebot has a restricted source-available licence",
+    "categories": [
+      "Customer Support & Success",
+      "Forms, Surveys & Conversion"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "zendesk",
+    "commercialProduct": "Zendesk",
+    "openSourceOptions": [
+      "Chatwoot",
+      "Zammad",
+      "FreeScout"
+    ],
+    "bestStartingPoint": "Zammad for a traditional help desk; Chatwoot for messaging",
+    "limitation": "Advanced workforce and compliance features vary",
+    "categories": [
+      "Customer Support & Success"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "mixpanel-amplitude",
+    "commercialProduct": "Mixpanel / Amplitude",
+    "openSourceOptions": [
+      "PostHog",
+      "OpenPanel"
+    ],
+    "bestStartingPoint": "PostHog",
+    "limitation": "Warehouse scale and retention costs still need capacity planning",
+    "categories": [
+      "Analytics & Experimentation"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "google-analytics",
+    "commercialProduct": "Google Analytics",
+    "openSourceOptions": [
+      "Umami",
+      "Plausible Analytics",
+      "Matomo"
+    ],
+    "bestStartingPoint": "Umami or Plausible for simplicity; Matomo for breadth",
+    "limitation": "Advertising integrations differ from Google's ecosystem",
+    "categories": [
+      "Analytics & Experimentation"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "optimizely",
+    "commercialProduct": "Optimizely",
+    "openSourceOptions": [
+      "GrowthBook"
+    ],
+    "bestStartingPoint": "GrowthBook",
+    "limitation": "Experiment design and statistical review remain team responsibilities",
+    "categories": [
+      "Analytics & Experimentation"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "typeform",
+    "commercialProduct": "Typeform",
+    "openSourceOptions": [
+      "Formbricks",
+      "HeyForm",
+      "Typebot"
+    ],
+    "bestStartingPoint": "Formbricks or HeyForm",
+    "limitation": "Typebot is source available rather than strict open source",
+    "categories": [
+      "Forms, Surveys & Conversion"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "calendly-chili-piper",
+    "commercialProduct": "Calendly / Chili Piper",
+    "openSourceOptions": [
+      "Cal.com",
+      "Easy!Appointments"
+    ],
+    "bestStartingPoint": "Cal.com",
+    "limitation": "Enterprise routing and support terms vary",
+    "categories": [
+      "Forms, Surveys & Conversion"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "webflow-framer",
+    "commercialProduct": "Webflow / Framer",
+    "openSourceOptions": [
+      "Webstudio"
+    ],
+    "bestStartingPoint": "Webstudio",
+    "limitation": "Ecosystem and template depth are smaller",
+    "categories": [
+      "Website & Content"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "contentful-sanity",
+    "commercialProduct": "Contentful / Sanity",
+    "openSourceOptions": [
+      "Strapi",
+      "Payload"
+    ],
+    "bestStartingPoint": "Payload for code-first teams; Strapi for a broader admin surface",
+    "limitation": "Both need hosting and operational ownership",
+    "categories": [
+      "Website & Content"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "zapier-make",
+    "commercialProduct": "Zapier / Make",
+    "openSourceOptions": [
+      "Activepieces",
+      "Windmill",
+      "Node-RED",
+      "Automatisch"
+    ],
+    "bestStartingPoint": "Activepieces for business users; Windmill for developers",
+    "limitation": "Connector coverage should be tested against the exact workflow list",
+    "categories": [
+      "Workflow Automation"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "segment",
+    "commercialProduct": "Segment",
+    "openSourceOptions": [
+      "Snowplow",
+      "Jitsu"
+    ],
+    "bestStartingPoint": "Jitsu for a smaller stack; Snowplow for a data platform",
+    "limitation": "Implementation is more technical than hosted Segment",
+    "categories": [
+      "Customer Data & Activation"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "fivetran",
+    "commercialProduct": "Fivetran",
+    "openSourceOptions": [
+      "Meltano"
+    ],
+    "bestStartingPoint": "Meltano",
+    "limitation": "Connector maintenance and scheduling are your responsibility",
+    "categories": [
+      "Customer Data & Activation"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "firecrawl",
+    "commercialProduct": "Firecrawl",
+    "openSourceOptions": [
+      "Crawl4AI",
+      "Crawlee"
+    ],
+    "bestStartingPoint": "Crawl4AI for AI-ready output; Crawlee for general scraping",
+    "limitation": "These are developer tools, not finished sales data products",
+    "categories": [
+      "Prospecting & Web Data"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "midjourney",
+    "commercialProduct": "Midjourney",
+    "openSourceOptions": [
+      "ComfyUI"
+    ],
+    "bestStartingPoint": "ComfyUI",
+    "limitation": "Model files and computing hardware are separate",
+    "categories": [
+      "Creative & Content"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "figma",
+    "commercialProduct": "Figma",
+    "openSourceOptions": [
+      "Penpot"
+    ],
+    "bestStartingPoint": "Penpot",
+    "limitation": "Plugin and design-system migration should be tested",
+    "categories": [
+      "Creative & Content"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "miro-figjam",
+    "commercialProduct": "Miro / FigJam",
+    "openSourceOptions": [
+      "Excalidraw"
+    ],
+    "bestStartingPoint": "Excalidraw",
+    "limitation": "Complex workshop facilitation features are more limited",
+    "categories": [
+      "Creative & Content"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "gamma",
+    "commercialProduct": "Gamma",
+    "openSourceOptions": [
+      "Presenton",
+      "Slidev",
+      "Marp"
+    ],
+    "bestStartingPoint": "Presenton for generated decks; Slidev or Marp for Markdown workflows",
+    "limitation": "Output quality and collaboration differ",
+    "categories": [
+      "Creative & Content"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "fireflies-ai-granola",
+    "commercialProduct": "Fireflies.ai / Granola",
+    "openSourceOptions": [
+      "Meetily",
+      "Vexa"
+    ],
+    "bestStartingPoint": "Meetily for local notes; Vexa for a meeting API",
+    "limitation": "Consent, recording notices and storage rules require local review",
+    "categories": [
+      "Conversation Intelligence"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "profound-scrunch-ai",
+    "commercialProduct": "Profound / Scrunch AI",
+    "openSourceOptions": [
+      "GEO/AEO Tracker"
+    ],
+    "bestStartingPoint": "Monitor only",
+    "limitation": "The researched project has no verified licence and the category is early",
+    "categories": [
+      "AI Answer Visibility"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  },
+  {
+    "slug": "airops",
+    "commercialProduct": "AirOps",
+    "openSourceOptions": [
+      "Flowise",
+      "LangChain",
+      "Dify"
+    ],
+    "bestStartingPoint": "Flowise for a visual builder; LangChain for code",
+    "limitation": "Dify's modified licence is source available, not strict open source",
+    "categories": [
+      "Agent & GTM Developer Tools"
+    ],
+    "sourceBasis": "Repository licence, description and official project documentation"
+  }
+]

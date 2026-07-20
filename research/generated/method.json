@@ -1,0 +1,90 @@
+{
+  "version": "1.0",
+  "checked": "2026-07-20",
+  "reviewPolicy": "Repository facts are collected from public GitHub metadata. Deployment readiness, go-to-market fit and licence classifications are editorial inputs reviewed against the linked repository and official website.",
+  "weights": {
+    "adoption": 25,
+    "community": 15,
+    "activity": 20,
+    "deployment": 15,
+    "gtmFit": 15,
+    "licence": 10
+  },
+  "formulas": {
+    "adoption": "min(25, 25 × ln(stars + 1) ÷ ln(largest stars in dataset + 1))",
+    "community": "min(15, 15 × ln(forks + 1) ÷ ln(largest fork count in dataset + 1))",
+    "total": "adoption + community + activity + deployment + go-to-market fit + licence"
+  },
+  "activityThresholds": [
+    {
+      "maximumDays": 7,
+      "points": 20
+    },
+    {
+      "maximumDays": 30,
+      "points": 18
+    },
+    {
+      "maximumDays": 90,
+      "points": 14
+    },
+    {
+      "maximumDays": 180,
+      "points": 10
+    },
+    {
+      "maximumDays": 365,
+      "points": 5
+    },
+    {
+      "maximumDays": null,
+      "points": 0
+    }
+  ],
+  "licenceModels": [
+    {
+      "model": "Permissive open source",
+      "points": 10,
+      "eligible": true,
+      "meaning": "Broad rights to use, change and redistribute."
+    },
+    {
+      "model": "Copyleft open source",
+      "points": 9,
+      "eligible": true,
+      "meaning": "Open source with share-alike duties when distributing changes."
+    },
+    {
+      "model": "Open core (permissive)",
+      "points": 8,
+      "eligible": true,
+      "meaning": "Open-source core with separately licensed enterprise features."
+    },
+    {
+      "model": "Open core (copyleft)",
+      "points": 7,
+      "eligible": true,
+      "meaning": "Copyleft core with separately licensed enterprise features."
+    },
+    {
+      "model": "Source available",
+      "points": 2,
+      "eligible": false,
+      "meaning": "Code can be read, but added restrictions prevent strict open-source classification."
+    },
+    {
+      "model": "Unlicensed / unclear",
+      "points": 0,
+      "eligible": false,
+      "meaning": "No verified licence grant was found."
+    }
+  ],
+  "limitations": [
+    "GitHub stars indicate attention, not installations, market share or revenue.",
+    "Fork counts vary by project type and are an imperfect measure of community participation.",
+    "Recent pushes can be automated and do not prove maintainer health.",
+    "Deployment readiness and go-to-market fit are editorial inputs that involve judgement.",
+    "Licence files can contain exceptions; classifications are corrected when better evidence appears.",
+    "Adoption and community scores are relative to the largest project in this snapshot, so adding or removing projects can change scores."
+  ]
+}

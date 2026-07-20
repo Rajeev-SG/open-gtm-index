@@ -1,0 +1,38 @@
+name: Correct published data
+description: Provide public evidence for a factual or classification correction.
+title: "Correction: "
+labels: ["research", "correction"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Project or record
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field to correct
+      placeholder: Licence, replacement mapping, repository fact, category, or another field
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Requested correction
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Public supporting source
+      description: Link to a source and explain what it proves.
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Relationship disclosure
+      description: State any employment, investment, or commercial relationship, or write “None”.
+    validations:
+      required: true

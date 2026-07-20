@@ -1,91 +1,129 @@
-export type CategoryLeader = {
-  category: string
-  leader: string
-  score: number
-  icon: IconName
+import categoriesJson from "../research/generated/categories.json"
+import methodJson from "../research/generated/method.json"
+import replacementsJson from "../research/generated/replacements.json"
+import sourcesJson from "../research/generated/sources.json"
+import toolsJson from "../research/generated/tools.json"
+
+export type ScoreComponents = {
+  adoption: number
+  community: number
+  activity: number
+  deployment: number
+  gtmFit: number
+  licence: number
 }
 
-export type RankingRow = {
-  rank: number
-  tool: string
+export type ToolRecord = {
+  slug: string
+  rank: number | null
+  categoryRank: number | null
+  name: string
   category: string
-  score: number
-  stars: number
+  categorySlug: string
+  replaces: string[]
+  description: string
+  repositoryDescription: string
   licence: string
-  replaces: string
-  logo: "cal" | "chatwoot" | "umami"
+  licenceModel: string
+  licenceMeaning: string
+  stars: number
+  forks: number
+  openIssues: number
+  lastPush: string
+  daysSincePush: number
+  defaultBranch: string
+  topics: string[]
+  components: ScoreComponents
+  score: number
+  eligible: boolean
+  maturity: string
+  recommendation: string
+  github: string
+  website: string
+  checked: string
+  methodVersion: string
+  editorialEvidence: {
+    deployment: string
+    gtmFit: string
+    licence: string
+    links: string[]
+  }
 }
 
-export type IconName =
-  | "menu"
-  | "close"
-  | "github"
-  | "arrow"
-  | "shield"
-  | "code"
-  | "document"
-  | "unlock"
-  | "users"
-  | "crm"
-  | "bars"
-  | "workflow"
-  | "chat"
-  | "mail"
-  | "wave"
-  | "sort"
-  | "heart"
-  | "clock"
-  | "server"
-  | "target"
-  | "scale"
+export type CategoryRecord = {
+  slug: string
+  name: string
+  eligibleTools: number
+  leader: string
+  leaderScore: number | null
+  leaderStars: number | null
+  averageScore: number | null
+  marketState: string
+  description: string
+}
 
-export const categoryLeaders: CategoryLeader[] = [
-  { category: "CRM & Revenue Operations", leader: "Twenty", score: 92.1, icon: "crm" },
-  { category: "Analytics & Experimentation", leader: "Umami", score: 93.3, icon: "bars" },
-  { category: "Workflow Automation", leader: "Activepieces", score: 89.4, icon: "workflow" },
-  { category: "Customer Support & Success", leader: "Chatwoot", score: 93.3, icon: "chat" },
-  { category: "Marketing Automation & Email", leader: "listmonk", score: 90.6, icon: "mail" },
-  { category: "Conversation Intelligence", leader: "Meetily", score: 82.9, icon: "wave" },
-]
+export type ReplacementRecord = {
+  slug: string
+  commercialProduct: string
+  openSourceOptions: string[]
+  bestStartingPoint: string
+  limitation: string
+  categories: string[]
+  sourceBasis: string
+}
 
-export const rankingRows: RankingRow[] = [
-  {
-    rank: 1,
-    tool: "Cal.com",
-    category: "Forms, Surveys & Conversion",
-    score: 93.8,
-    stars: 46636,
-    licence: "MIT",
-    replaces: "Calendly; Chili Piper",
-    logo: "cal",
-  },
-  {
-    rank: 2,
-    tool: "Chatwoot",
-    category: "Customer Support & Success",
-    score: 93.3,
-    stars: 34579,
-    licence: "MIT core",
-    replaces: "Intercom; Zendesk",
-    logo: "chatwoot",
-  },
-  {
-    rank: 2,
-    tool: "Umami",
-    category: "Analytics & Experimentation",
-    score: 93.3,
-    stars: 37768,
-    licence: "MIT",
-    replaces: "Google Analytics",
-    logo: "umami",
-  },
-]
+export type SourceRecord = {
+  type: string
+  name: string
+  url: string
+  usedFor: string
+  checked: string
+}
 
-export const scoreFactors: Array<{ label: string; weight: number; icon: IconName }> = [
-  { label: "Adoption", weight: 25, icon: "users" },
-  { label: "Community", weight: 15, icon: "heart" },
-  { label: "Recent activity", weight: 20, icon: "clock" },
-  { label: "Deployment", weight: 15, icon: "server" },
-  { label: "GTM fit", weight: 15, icon: "target" },
-  { label: "Licence", weight: 10, icon: "scale" },
-]
+export type MethodRecord = {
+  version: string
+  checked: string
+  reviewPolicy: string
+  weights: ScoreComponents
+  formulas: Record<string, string>
+  activityThresholds: Array<{ maximumDays: number | null; points: number }>
+  licenceModels: Array<{ model: string; points: number; eligible: boolean; meaning: string }>
+  limitations: string[]
+}
+
+export const tools = toolsJson as ToolRecord[]
+export const categories = categoriesJson as CategoryRecord[]
+export const replacements = replacementsJson as ReplacementRecord[]
+export const sources = sourcesJson as SourceRecord[]
+export const method = methodJson as MethodRecord
+
+export const rankedTools = tools.filter((tool) => tool.eligible)
+export const watchlistTools = tools.filter((tool) => !tool.eligible)
+
+export function getTool(slug: string) {
+  return tools.find((tool) => tool.slug === slug)
+}
+
+export function getCategory(slug: string) {
+  return categories.find((category) => category.slug === slug)
+}
+
+export function getCategoryTools(categoryName: string) {
+  return tools.filter((tool) => tool.category === categoryName)
+}
+
+export function getSourceForTool(toolName: string) {
+  return sources.find((source) => source.type === "Project repository" && source.name === toolName)
+}
+
+export function formatDate(date: string) {
+  return new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`))
+}
+
+export function formatNumber(value: number) {
+  return value.toLocaleString("en-GB")
+}
+
+export function scoreTotal(components: ScoreComponents) {
+  return Math.round(Object.values(components).reduce((total, value) => total + value, 0) * 10) / 10
+}

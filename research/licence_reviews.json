@@ -1,0 +1,267 @@
+[
+  {
+    "name": "Cal.com",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Chatwoot",
+    "licence": "MIT core + enterprise files",
+    "licenceModel": "Open core (permissive)"
+  },
+  {
+    "name": "Umami",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Excalidraw",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Strapi",
+    "licence": "MIT community edition + enterprise files",
+    "licenceModel": "Open core (permissive)"
+  },
+  {
+    "name": "Twenty",
+    "licence": "AGPL-3.0 core + enterprise files",
+    "licenceModel": "Open core (copyleft)"
+  },
+  {
+    "name": "Crawl4AI",
+    "licence": "Apache-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "LangChain",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Payload",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "listmonk",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "PostHog",
+    "licence": "MIT core + enterprise files",
+    "licenceModel": "Open core (permissive)"
+  },
+  {
+    "name": "Flowise",
+    "licence": "Apache-2.0 core + enterprise files",
+    "licenceModel": "Open core (permissive)"
+  },
+  {
+    "name": "ComfyUI",
+    "licence": "GPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Matomo",
+    "licence": "GPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Activepieces",
+    "licence": "MIT core + enterprise files",
+    "licenceModel": "Open core (permissive)"
+  },
+  {
+    "name": "Penpot",
+    "licence": "MPL-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Plausible Analytics",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Mautic",
+    "licence": "GPL-3.0-or-later",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Node-RED",
+    "licence": "Apache-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Krayin CRM",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "CrewAI",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "LlamaIndex",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Slidev",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Zammad",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Formbricks",
+    "licence": "AGPL-3.0 core + enterprise files",
+    "licenceModel": "Open core (copyleft)"
+  },
+  {
+    "name": "Crawlee",
+    "licence": "Apache-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "SearXNG",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "EspoCRM",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Webstudio",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "GrowthBook",
+    "licence": "MIT core + enterprise files",
+    "licenceModel": "Open core (permissive)"
+  },
+  {
+    "name": "Windmill",
+    "licence": "AGPL-3.0 / Apache-2.0 core + enterprise files",
+    "licenceModel": "Open core (copyleft)"
+  },
+  {
+    "name": "Langfuse",
+    "licence": "MIT core + enterprise files",
+    "licenceModel": "Open core (permissive)"
+  },
+  {
+    "name": "FreeScout",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "HeyForm",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Easy!Appointments",
+    "licence": "GPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Meetily",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Presenton",
+    "licence": "Apache-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Corteza",
+    "licence": "Apache-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "OpenPanel",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Plunk",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Jitsu",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Vexa",
+    "licence": "Apache-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Snowplow",
+    "licence": "Apache-2.0",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Atomic CRM",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Meltano",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "SuiteCRM",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Keila",
+    "licence": "AGPL-3.0",
+    "licenceModel": "Copyleft open source"
+  },
+  {
+    "name": "Marp",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Dittofeed",
+    "licence": "MIT",
+    "licenceModel": "Permissive open source"
+  },
+  {
+    "name": "Automatisch",
+    "licence": "AGPL-3.0 core + enterprise files",
+    "licenceModel": "Open core (copyleft)"
+  },
+  {
+    "name": "Dify",
+    "licence": "Modified Apache-2.0 with added restrictions",
+    "licenceModel": "Source available"
+  },
+  {
+    "name": "Typebot",
+    "licence": "FSL-1.1-Apache-2.0 future licence",
+    "licenceModel": "Source available"
+  },
+  {
+    "name": "GEO/AEO Tracker",
+    "licence": "No licence file found",
+    "licenceModel": "Unlicensed / unclear"
+  }
+]
