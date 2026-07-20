@@ -1,0 +1,10 @@
+node_modules/
+.output/
+.tanstack/
+.vercel/
+.playwright-cli/
+dist/
+output/
+.DS_Store
+.env*
+!.env.example

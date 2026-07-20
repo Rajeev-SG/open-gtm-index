@@ -1,0 +1,67 @@
+[
+  {"name":"Twenty","repo":"twentyhq/twenty","category":"CRM & Revenue Operations","replaces":"Salesforce; HubSpot; Attio","gtmFit":15,"deploy":14,"note":"Modern extensible CRM with self-hosting."},
+  {"name":"EspoCRM","repo":"espocrm/espocrm","category":"CRM & Revenue Operations","replaces":"Salesforce; HubSpot","gtmFit":15,"deploy":14,"note":"Established CRM for leads, accounts, deals and service."},
+  {"name":"SuiteCRM","repo":"salesagility/SuiteCRM-Core","category":"CRM & Revenue Operations","replaces":"Salesforce; Microsoft Dynamics 365","gtmFit":15,"deploy":13,"note":"Feature-rich enterprise CRM descended from SugarCRM."},
+  {"name":"Corteza","repo":"cortezaproject/corteza","category":"CRM & Revenue Operations","replaces":"Salesforce; Microsoft Dynamics 365","gtmFit":14,"deploy":13,"note":"Low-code business platform with CRM applications."},
+  {"name":"Atomic CRM","repo":"marmelab/atomic-crm","category":"CRM & Revenue Operations","replaces":"Attio; Pipedrive","gtmFit":13,"deploy":10,"note":"Developer-friendly React CRM toolkit."},
+  {"name":"Krayin CRM","repo":"krayin/laravel-crm","category":"CRM & Revenue Operations","replaces":"HubSpot CRM; Pipedrive","gtmFit":14,"deploy":12,"note":"Laravel CRM with leads, activities, products and quotes."},
+
+  {"name":"Mautic","repo":"mautic/mautic","category":"Marketing Automation & Email","replaces":"HubSpot Marketing Hub; Marketo","gtmFit":15,"deploy":13,"note":"Campaign automation, lead scoring, segments and email."},
+  {"name":"listmonk","repo":"knadh/listmonk","category":"Marketing Automation & Email","replaces":"Mailchimp; Campaign Monitor","gtmFit":14,"deploy":15,"note":"High-performance newsletter and mailing-list manager."},
+  {"name":"Dittofeed","repo":"dittofeed/dittofeed","category":"Marketing Automation & Email","replaces":"Customer.io; Braze","gtmFit":15,"deploy":13,"note":"Customer engagement workflows for email and messaging."},
+  {"name":"Keila","repo":"pentacent/keila","category":"Marketing Automation & Email","replaces":"Mailchimp; Buttondown","gtmFit":13,"deploy":12,"note":"Newsletter tool with campaigns, forms and segments."},
+  {"name":"Plunk","repo":"useplunk/plunk","category":"Marketing Automation & Email","replaces":"Loops; Customer.io","gtmFit":14,"deploy":13,"note":"Email platform for transactional and marketing messages."},
+
+  {"name":"Chatwoot","repo":"chatwoot/chatwoot","category":"Customer Support & Success","replaces":"Intercom; Zendesk","gtmFit":15,"deploy":15,"note":"Omnichannel support inbox, chat and help centre."},
+  {"name":"FreeScout","repo":"freescout-help-desk/freescout","category":"Customer Support & Success","replaces":"Help Scout; Zendesk","gtmFit":14,"deploy":14,"note":"Lightweight shared inbox and help desk."},
+  {"name":"Zammad","repo":"zammad/zammad","category":"Customer Support & Success","replaces":"Zendesk; Freshdesk","gtmFit":15,"deploy":14,"note":"Full help desk with email, chat and social channels."},
+
+  {"name":"PostHog","repo":"PostHog/posthog","category":"Analytics & Experimentation","replaces":"Mixpanel; Amplitude; Hotjar","gtmFit":14,"deploy":14,"note":"Product analytics, replay, experiments, surveys and warehouse."},
+  {"name":"Plausible Analytics","repo":"plausible/analytics","category":"Analytics & Experimentation","replaces":"Google Analytics","gtmFit":13,"deploy":14,"note":"Privacy-focused web analytics."},
+  {"name":"Umami","repo":"umami-software/umami","category":"Analytics & Experimentation","replaces":"Google Analytics","gtmFit":13,"deploy":15,"note":"Simple privacy-focused web analytics."},
+  {"name":"OpenPanel","repo":"Openpanel-dev/openpanel","category":"Analytics & Experimentation","replaces":"Mixpanel; Amplitude","gtmFit":14,"deploy":13,"note":"Web and product analytics with self-hosting."},
+  {"name":"Matomo","repo":"matomo-org/matomo","category":"Analytics & Experimentation","replaces":"Google Analytics; Adobe Analytics","gtmFit":14,"deploy":14,"note":"Mature web analytics with data ownership."},
+  {"name":"GrowthBook","repo":"growthbook/growthbook","category":"Analytics & Experimentation","replaces":"Optimizely; LaunchDarkly","gtmFit":14,"deploy":14,"note":"Feature flags and experimentation with warehouse-native analysis."},
+
+  {"name":"Formbricks","repo":"formbricks/formbricks","category":"Forms, Surveys & Conversion","replaces":"Typeform; Delighted","gtmFit":14,"deploy":14,"note":"Surveys and in-product feedback."},
+  {"name":"HeyForm","repo":"heyform/heyform","category":"Forms, Surveys & Conversion","replaces":"Typeform; Google Forms","gtmFit":13,"deploy":13,"note":"Form and survey builder."},
+  {"name":"Typebot","repo":"baptisteArno/typebot.io","category":"Forms, Surveys & Conversion","replaces":"Typeform; Intercom chat flows","gtmFit":14,"deploy":14,"note":"Conversational form builder and embeddable chat flows."},
+  {"name":"Cal.com","repo":"calcom/cal.com","category":"Forms, Surveys & Conversion","replaces":"Calendly; Chili Piper","gtmFit":15,"deploy":14,"note":"Scheduling platform with routing and integrations."},
+  {"name":"Easy!Appointments","repo":"alextselegidis/easyappointments","category":"Forms, Surveys & Conversion","replaces":"Calendly; Acuity Scheduling","gtmFit":12,"deploy":14,"note":"Self-hosted appointment scheduling."},
+
+  {"name":"Webstudio","repo":"webstudio-is/webstudio","category":"Website & Content","replaces":"Webflow; Framer","gtmFit":14,"deploy":12,"note":"Visual website builder with open code and self-hosting."},
+  {"name":"Strapi","repo":"strapi/strapi","category":"Website & Content","replaces":"Contentful; Sanity","gtmFit":12,"deploy":15,"note":"Headless content management system."},
+  {"name":"Payload","repo":"payloadcms/payload","category":"Website & Content","replaces":"Contentful; Sanity","gtmFit":12,"deploy":14,"note":"Code-first headless content platform."},
+
+  {"name":"Activepieces","repo":"activepieces/activepieces","category":"Workflow Automation","replaces":"Zapier; Make","gtmFit":14,"deploy":14,"note":"Business automation with connectors and AI steps."},
+  {"name":"Windmill","repo":"windmill-labs/windmill","category":"Workflow Automation","replaces":"Retool Workflows; Zapier","gtmFit":13,"deploy":14,"note":"Developer automation, workflows and internal applications."},
+  {"name":"Node-RED","repo":"node-red/node-red","category":"Workflow Automation","replaces":"Zapier; Make","gtmFit":10,"deploy":15,"note":"Flow-based automation with a large node ecosystem."},
+  {"name":"Automatisch","repo":"automatisch/automatisch","category":"Workflow Automation","replaces":"Zapier; Make","gtmFit":13,"deploy":13,"note":"Self-hosted business workflow automation."},
+
+  {"name":"Snowplow","repo":"snowplow/snowplow","category":"Customer Data & Activation","replaces":"Segment; mParticle","gtmFit":13,"deploy":10,"note":"Behavioural data collection and customer data infrastructure."},
+  {"name":"Meltano","repo":"meltano/meltano","category":"Customer Data & Activation","replaces":"Fivetran; Stitch Data","gtmFit":10,"deploy":12,"note":"Data integration platform built on Singer connectors."},
+  {"name":"Jitsu","repo":"jitsucom/jitsu","category":"Customer Data & Activation","replaces":"Segment; RudderStack","gtmFit":12,"deploy":12,"note":"Event collection and data routing."},
+
+  {"name":"Crawlee","repo":"apify/crawlee","category":"Prospecting & Web Data","replaces":"Apify; Bright Data collectors","gtmFit":11,"deploy":13,"note":"Web scraping and browser automation library."},
+  {"name":"SearXNG","repo":"searxng/searxng","category":"Prospecting & Web Data","replaces":"Google Search API; SerpAPI","gtmFit":9,"deploy":14,"note":"Private metasearch engine usable as a search data source."},
+  {"name":"Crawl4AI","repo":"unclecode/crawl4ai","category":"Prospecting & Web Data","replaces":"Firecrawl","gtmFit":12,"deploy":13,"note":"Crawler that produces AI-ready web content."},
+
+  {"name":"ComfyUI","repo":"Comfy-Org/ComfyUI","category":"Creative & Content","replaces":"Midjourney; Runway image workflows","gtmFit":10,"deploy":12,"note":"Node-based generative media workflow interface."},
+  {"name":"Penpot","repo":"penpot/penpot","category":"Creative & Content","replaces":"Figma","gtmFit":10,"deploy":14,"note":"Collaborative interface design and prototyping."},
+  {"name":"Excalidraw","repo":"excalidraw/excalidraw","category":"Creative & Content","replaces":"Miro; FigJam","gtmFit":9,"deploy":15,"note":"Collaborative diagrams and visual thinking."},
+  {"name":"Slidev","repo":"slidevjs/slidev","category":"Creative & Content","replaces":"Gamma; Pitch","gtmFit":9,"deploy":14,"note":"Developer-focused slide decks from Markdown."},
+  {"name":"Marp","repo":"marp-team/marp","category":"Creative & Content","replaces":"Gamma; PowerPoint","gtmFit":8,"deploy":14,"note":"Markdown presentation ecosystem."},
+  {"name":"Presenton","repo":"presenton/presenton","category":"Creative & Content","replaces":"Gamma; Beautiful.ai","gtmFit":11,"deploy":12,"note":"AI presentation generation with self-hosting."},
+
+  {"name":"Vexa","repo":"Vexa-ai/vexa","category":"Conversation Intelligence","replaces":"Recall.ai; Fireflies.ai","gtmFit":13,"deploy":12,"note":"Meeting bot and real-time transcription API."},
+  {"name":"Meetily","repo":"Zackriya-Solutions/meetily","category":"Conversation Intelligence","replaces":"Granola; Otter.ai; Fireflies.ai","gtmFit":13,"deploy":13,"note":"Local meeting transcription and summarisation."},
+
+  {"name":"GEO/AEO Tracker","repo":"danishashko/geo-aeo-tracker","category":"AI Answer Visibility","replaces":"Profound; Scrunch AI; Peec AI","gtmFit":15,"deploy":9,"note":"Early local-first tracker for brand visibility in AI answers."},
+
+  {"name":"Dify","repo":"langgenius/dify","category":"Agent & GTM Developer Tools","replaces":"AirOps; proprietary agent builders","gtmFit":11,"deploy":14,"note":"Agent and language-model application platform."},
+  {"name":"Flowise","repo":"FlowiseAI/Flowise","category":"Agent & GTM Developer Tools","replaces":"AirOps; visual agent builders","gtmFit":10,"deploy":14,"note":"Visual builder for agent and language-model workflows."},
+  {"name":"Langfuse","repo":"langfuse/langfuse","category":"Agent & GTM Developer Tools","replaces":"LangSmith; agent observability services","gtmFit":9,"deploy":14,"note":"Tracing, evaluation and prompt management for AI applications."},
+  {"name":"CrewAI","repo":"crewAIInc/crewAI","category":"Agent & GTM Developer Tools","replaces":"Proprietary multi-agent platforms","gtmFit":9,"deploy":12,"note":"Framework for coordinated AI agent workflows."},
+  {"name":"LangChain","repo":"langchain-ai/langchain","category":"Agent & GTM Developer Tools","replaces":"Proprietary agent SDKs","gtmFit":8,"deploy":13,"note":"Framework and integrations for agent applications."},
+  {"name":"LlamaIndex","repo":"run-llama/llama_index","category":"Agent & GTM Developer Tools","replaces":"Proprietary retrieval and agent SDKs","gtmFit":8,"deploy":13,"note":"Data and retrieval framework for agent applications."}
+]
