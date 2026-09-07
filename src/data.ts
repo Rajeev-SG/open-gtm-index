@@ -100,6 +100,22 @@ export const method = methodJson as MethodRecord
 export const rankedTools = tools.filter((tool) => tool.eligible)
 export const watchlistTools = tools.filter((tool) => !tool.eligible)
 
+export type SnapshotState = "current" | "aging" | "stale" | "unknown"
+
+export function snapshotAgeDays(now = new Date()) {
+  const timestamp = Date.parse(`${method.checked}T00:00:00Z`)
+  if (!Number.isFinite(timestamp)) return null
+  return Math.max(0, Math.floor((now.getTime() - timestamp) / 86_400_000))
+}
+
+export function snapshotState(now = new Date()): SnapshotState {
+  const age = snapshotAgeDays(now)
+  if (age === null) return "unknown"
+  if (age > 14) return "stale"
+  if (age > 7) return "aging"
+  return "current"
+}
+
 export function getTool(slug: string) {
   return tools.find((tool) => tool.slug === slug)
 }
