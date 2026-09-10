@@ -42,6 +42,7 @@ svg { display: block; width: 1.25rem; height: 1.25rem; fill: none; stroke: curre
 .site-nav .github-link { display: inline-flex; align-items: center; gap: .55rem; color: var(--blue-dark); }
 .site-nav .github-link svg { color: var(--ink); }
 .menu-button { display: none; border: 0; background: transparent; }
+.snapshot-notice { display: flex; align-items: center; gap: .7rem; padding: .7rem var(--gutter); border-bottom: 1px solid var(--line); background: var(--blue-pale); color: #263b63; font-size: .88rem; }.snapshot-notice svg { width: 1rem; height: 1rem; flex: 0 0 auto; }.snapshot-notice p { margin: 0; }.snapshot-notice strong { font-weight: 750; }.snapshot-stale { border-bottom-color: #dfa665; background: var(--amber-pale); color: #6e3a00; }.snapshot-unknown { background: var(--amber-pale); color: #6e3a00; }
 
 .hero { border-bottom: 1px solid var(--line-dark); }
 .hero-inner { max-width: var(--content); min-height: 29rem; margin: 0 auto; padding: clamp(3.6rem,6vw,6rem) var(--gutter) 2.8rem; }

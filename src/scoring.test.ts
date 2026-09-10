@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest"
 
-import { getTool, tools } from "./data"
+import { getTool, snapshotAgeDays, snapshotState, tools } from "./data"
 import { activityPoints, calculateTotal, validatePublishedTools } from "./scoring"
 
 describe("published ranking data", () => {
@@ -23,5 +23,12 @@ describe("published ranking data", () => {
 
   it("implements every activity boundary", () => {
     expect([7, 8, 30, 31, 90, 91, 180, 181, 365, 366].map(activityPoints)).toEqual([20, 18, 18, 14, 14, 10, 10, 5, 5, 0])
+  })
+
+  it("labels old evidence as a dated snapshot", () => {
+    const now = new Date("2026-09-07T12:00:00Z")
+    expect(snapshotAgeDays(now)).toBe(49)
+    expect(snapshotState(now)).toBe("stale")
+    expect(snapshotState(new Date("2026-07-25T12:00:00Z"))).toBe("current")
   })
 })

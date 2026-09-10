@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router"
 import { useEffect, useState, type ReactNode } from "react"
 
 import { Icon, IconSprite } from "./icons"
+import { formatDate, method, snapshotAgeDays, snapshotState } from "../data"
 
 const navigation = [
   ["Rankings", "/rankings"],
@@ -17,6 +18,15 @@ export function AppShell({ children }: { children: ReactNode }) {
     document.body.toggleAttribute("data-menu-open", menuOpen)
     return () => document.body.removeAttribute("data-menu-open")
   }, [menuOpen])
+
+  const state = snapshotState()
+  const age = snapshotAgeDays()
+  const freshness = state === "stale" ? "Dated research snapshot" : "Research snapshot"
+  const detail = age === null
+    ? "The evidence date could not be read."
+    : state === "stale"
+      ? "Refresh is due; use this ranking as a dated reference, not live market data."
+      : "Rankings are based on public evidence checked on this date."
 
   return (
     <>
@@ -37,6 +47,10 @@ export function AppShell({ children }: { children: ReactNode }) {
           </a>
         </nav>
       </header>
+      <aside className={`snapshot-notice snapshot-${state}`} aria-label="Research freshness">
+        <Icon name="clock" />
+        <p><strong>{freshness}</strong> · checked {formatDate(method.checked)}. {detail}</p>
+      </aside>
       {children}
       <footer className="site-footer">
         <div>
@@ -49,7 +63,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <Link to="/changelog">Changelog</Link>
           <a href="https://github.com/Rajeev-SG/open-gtm-index">Repository</a>
         </nav>
-        <p className="footer-meta">Data: CC BY 4.0 · Code: MIT<br />Snapshot checked 20 July 2026</p>
+        <p className="footer-meta">Data: CC BY 4.0 · Code: MIT<br />Snapshot checked {formatDate(method.checked)}</p>
       </footer>
     </>
   )
